@@ -1,0 +1,470 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C13ContactBackup14ViewController"
+provides-member:
+- ["C13ContactBackup14ViewController", ""]
+provides-dynamic-lookup:
+- "txt_name"
+- "viewDidLoad"
+- "manager"
+- "didReceiveMemoryWarning"
+- "actionbtn"
+depends-top-level:
+- "AssignmentPrecedence"
+- "AnyObject"
+- !private "Person_Model"
+- "ViewController"
+- !private "NSMutableArray"
+- "UIViewController"
+- !private "StringLiteralType"
+- "UITextField"
+- !private "print"
+- "DatabaseManager"
+depends-member:
+- !private ["Ps9AnyObject", "CreateDatabse"]
+- ["Ps9AnyObject", "DatabaseManager"]
+- !private ["Ps9AnyObject", "FirstName"]
+- !private ["Ps9AnyObject", "Insert"]
+- !private ["Ps9AnyObject", "NSMutableArray"]
+- !private ["Ps9AnyObject", "Person_Model"]
+- ["Ps9AnyObject", "actionbtn"]
+- !private ["Ps9AnyObject", "add"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "manager"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "txt_name"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["C13ContactBackup9BaseModel", "FirstName"]
+- !private ["C13ContactBackup9BaseModel", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "text"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "CreateDatabse"]
+- ["Ps7CVarArg", "DatabaseManager"]
+- !private ["Ps7CVarArg", "FirstName"]
+- !private ["Ps7CVarArg", "Insert"]
+- !private ["Ps7CVarArg", "NSMutableArray"]
+- !private ["Ps7CVarArg", "Person_Model"]
+- ["Ps7CVarArg", "actionbtn"]
+- !private ["Ps7CVarArg", "add"]
+- ["Ps7CVarArg", "didReceiveMemoryWarning"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "manager"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "txt_name"]
+- ["Ps7CVarArg", "viewDidLoad"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CreateDatabse"]
+- ["Ps28CustomDebugStringConvertible", "DatabaseManager"]
+- !private ["Ps28CustomDebugStringConvertible", "FirstName"]
+- !private ["Ps28CustomDebugStringConvertible", "Insert"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableArray"]
+- !private ["Ps28CustomDebugStringConvertible", "Person_Model"]
+- ["Ps28CustomDebugStringConvertible", "actionbtn"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "manager"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "txt_name"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "add"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CreateDatabse"]
+- ["Ps23CustomStringConvertible", "DatabaseManager"]
+- !private ["Ps23CustomStringConvertible", "FirstName"]
+- !private ["Ps23CustomStringConvertible", "Insert"]
+- !private ["Ps23CustomStringConvertible", "NSMutableArray"]
+- !private ["Ps23CustomStringConvertible", "Person_Model"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "actionbtn"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "manager"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "txt_name"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C13ContactBackup15DatabaseManager", "CreateDatabse"]
+- !private ["C13ContactBackup15DatabaseManager", "Insert"]
+- ["C13ContactBackup15DatabaseManager", "deinit"]
+- ["C13ContactBackup15DatabaseManager", "init"]
+- !private ["Ps9Equatable", "CreateDatabse"]
+- ["Ps9Equatable", "DatabaseManager"]
+- !private ["Ps9Equatable", "FirstName"]
+- !private ["Ps9Equatable", "Insert"]
+- !private ["Ps9Equatable", "NSMutableArray"]
+- !private ["Ps9Equatable", "Person_Model"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "actionbtn"]
+- !private ["Ps9Equatable", "add"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "manager"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "txt_name"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "add"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CreateDatabse"]
+- ["Ps8Hashable", "DatabaseManager"]
+- !private ["Ps8Hashable", "FirstName"]
+- !private ["Ps8Hashable", "Insert"]
+- !private ["Ps8Hashable", "NSMutableArray"]
+- !private ["Ps8Hashable", "Person_Model"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "actionbtn"]
+- !private ["Ps8Hashable", "add"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "manager"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "txt_name"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo7NSArray", "add"]
+- !private ["CSo7NSArray", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "DatabaseManager"]
+- !private ["PSo8NSCoding", "NSMutableArray"]
+- !private ["PSo8NSCoding", "Person_Model"]
+- ["PSo8NSCoding", "actionbtn"]
+- !private ["PSo8NSCoding", "add"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "manager"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "txt_name"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "add"]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo26NSExtensionRequestHandling", "DatabaseManager"]
+- !private ["PSo26NSExtensionRequestHandling", "NSMutableArray"]
+- !private ["PSo26NSExtensionRequestHandling", "Person_Model"]
+- ["PSo26NSExtensionRequestHandling", "actionbtn"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "manager"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "txt_name"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "add"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["CSo14NSMutableArray", "add"]
+- ["CSo14NSMutableArray", "deinit"]
+- !private ["CSo14NSMutableArray", "init"]
+- !private ["PSo16NSMutableCopying", "add"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "CreateDatabse"]
+- ["CSo8NSObject", "DatabaseManager"]
+- !private ["CSo8NSObject", "FirstName"]
+- !private ["CSo8NSObject", "Insert"]
+- !private ["CSo8NSObject", "NSMutableArray"]
+- !private ["CSo8NSObject", "Person_Model"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "actionbtn"]
+- !private ["CSo8NSObject", "add"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "manager"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "txt_name"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CreateDatabse"]
+- ["PSo16NSObjectProtocol", "DatabaseManager"]
+- !private ["PSo16NSObjectProtocol", "FirstName"]
+- !private ["PSo16NSObjectProtocol", "Insert"]
+- !private ["PSo16NSObjectProtocol", "NSMutableArray"]
+- !private ["PSo16NSObjectProtocol", "Person_Model"]
+- ["PSo16NSObjectProtocol", "actionbtn"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "manager"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "txt_name"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "add"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["C13ContactBackup12Person_Model", "FirstName"]
+- ["C13ContactBackup12Person_Model", "deinit"]
+- !private ["C13ContactBackup12Person_Model", "init"]
+- !private ["Ps8Sequence", "add"]
+- !private ["Ps8Sequence", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo21UIAppearanceContainer", "DatabaseManager"]
+- !private ["PSo21UIAppearanceContainer", "NSMutableArray"]
+- !private ["PSo21UIAppearanceContainer", "Person_Model"]
+- ["PSo21UIAppearanceContainer", "actionbtn"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "manager"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "txt_name"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo18UIContentContainer", "DatabaseManager"]
+- !private ["PSo18UIContentContainer", "NSMutableArray"]
+- !private ["PSo18UIContentContainer", "Person_Model"]
+- ["PSo18UIContentContainer", "actionbtn"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "manager"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "txt_name"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["CSo9UIControl", "text"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo18UIFocusEnvironment", "DatabaseManager"]
+- !private ["PSo18UIFocusEnvironment", "NSMutableArray"]
+- !private ["PSo18UIFocusEnvironment", "Person_Model"]
+- ["PSo18UIFocusEnvironment", "actionbtn"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "manager"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "txt_name"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "text"]
+- !private ["PSo10UIKeyInput", "text"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "DatabaseManager"]
+- !private ["CSo11UIResponder", "NSMutableArray"]
+- !private ["CSo11UIResponder", "Person_Model"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "actionbtn"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "manager"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "txt_name"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", "DatabaseManager"]
+- !private ["PSo30UIResponderStandardEditActions", "NSMutableArray"]
+- !private ["PSo30UIResponderStandardEditActions", "Person_Model"]
+- ["PSo30UIResponderStandardEditActions", "actionbtn"]
+- ["PSo30UIResponderStandardEditActions", "didReceiveMemoryWarning"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "manager"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "txt_name"]
+- ["PSo30UIResponderStandardEditActions", "viewDidLoad"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["PSo16UIStateRestoring", "DatabaseManager"]
+- !private ["PSo16UIStateRestoring", "NSMutableArray"]
+- !private ["PSo16UIStateRestoring", "Person_Model"]
+- ["PSo16UIStateRestoring", "actionbtn"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "manager"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "txt_name"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["CSo11UITextField", "text"]
+- !private ["PSo11UITextInput", "text"]
+- !private ["PSo17UITextInputTraits", "text"]
+- ["PSo18UITraitEnvironment", "DatabaseManager"]
+- !private ["PSo18UITraitEnvironment", "NSMutableArray"]
+- !private ["PSo18UITraitEnvironment", "Person_Model"]
+- ["PSo18UITraitEnvironment", "actionbtn"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "manager"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "txt_name"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "text"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "DatabaseManager"]
+- !private ["CSo16UIViewController", "NSMutableArray"]
+- !private ["CSo16UIViewController", "Person_Model"]
+- ["CSo16UIViewController", "UITextField"]
+- ["CSo16UIViewController", "actionbtn"]
+- ["CSo16UIViewController", "deinit"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "manager"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "txt_name"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- ["C13ContactBackup14ViewController", "AnyObject"]
+- ["C13ContactBackup14ViewController", "DatabaseManager"]
+- !private ["C13ContactBackup14ViewController", "NSMutableArray"]
+- !private ["C13ContactBackup14ViewController", "Person_Model"]
+- ["C13ContactBackup14ViewController", "UITextField"]
+- ["C13ContactBackup14ViewController", "actionbtn"]
+- ["C13ContactBackup14ViewController", "deinit"]
+- ["C13ContactBackup14ViewController", "didReceiveMemoryWarning"]
+- ["C13ContactBackup14ViewController", "init"]
+- ["C13ContactBackup14ViewController", "manager"]
+- !private ["C13ContactBackup14ViewController", "print"]
+- ["C13ContactBackup14ViewController", "txt_name"]
+- ["C13ContactBackup14ViewController", "viewDidLoad"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CreateDatabse"]
+- ["Ps9_Hashable", "DatabaseManager"]
+- !private ["Ps9_Hashable", "FirstName"]
+- !private ["Ps9_Hashable", "Insert"]
+- !private ["Ps9_Hashable", "NSMutableArray"]
+- !private ["Ps9_Hashable", "Person_Model"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "actionbtn"]
+- !private ["Ps9_Hashable", "add"]
+- ["Ps9_Hashable", "didReceiveMemoryWarning"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "manager"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "txt_name"]
+- ["Ps9_Hashable", "viewDidLoad"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C13ContactBackup9BaseModel"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C13ContactBackup15DatabaseManager"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "CSo7NSArray"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- "CSo14NSMutableArray"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "C13ContactBackup12Person_Model"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo16UIStateRestoring"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- "C13ContactBackup14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+interface-hash: "0e025c41cc18d3cdd10ce7733d7f7b64"

@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BasebackGroundParser"
+provides-nominal:
+- "C13ContactBackup20BasebackGroundParser"
+provides-member:
+- ["C13ContactBackup20BasebackGroundParser", ""]
+provides-dynamic-lookup:
+- "doParsing"
+- "doParsing_Downlod"
+depends-top-level:
+- "NSObject"
+- "NSMutableArray"
+- "BasebackGroundParser"
+- "Data"
+- "BaseModel"
+depends-member:
+- !private ["Ps9AnyObject", "BaseModel"]
+- !private ["Ps9AnyObject", "NSMutableArray"]
+- ["Ps9AnyObject", "doParsing"]
+- ["Ps9AnyObject", "doParsing_Downlod"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- ["C13ContactBackup9BaseModel", "deinit"]
+- !private ["C13ContactBackup9BaseModel", "init"]
+- ["C13ContactBackup20BasebackGroundParser", "BaseModel"]
+- ["C13ContactBackup20BasebackGroundParser", "Data"]
+- ["C13ContactBackup20BasebackGroundParser", "NSMutableArray"]
+- ["C13ContactBackup20BasebackGroundParser", "deinit"]
+- ["C13ContactBackup20BasebackGroundParser", "doParsing"]
+- ["C13ContactBackup20BasebackGroundParser", "doParsing_Downlod"]
+- ["C13ContactBackup20BasebackGroundParser", "init"]
+- !private ["Ps7CVarArg", "BaseModel"]
+- !private ["Ps7CVarArg", "NSMutableArray"]
+- ["Ps7CVarArg", "doParsing"]
+- ["Ps7CVarArg", "doParsing_Downlod"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "BaseModel"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableArray"]
+- ["Ps28CustomDebugStringConvertible", "doParsing"]
+- ["Ps28CustomDebugStringConvertible", "doParsing_Downlod"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "BaseModel"]
+- !private ["Ps23CustomStringConvertible", "NSMutableArray"]
+- ["Ps23CustomStringConvertible", "doParsing"]
+- ["Ps23CustomStringConvertible", "doParsing_Downlod"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BaseModel"]
+- !private ["Ps9Equatable", "NSMutableArray"]
+- ["Ps9Equatable", "doParsing"]
+- ["Ps9Equatable", "doParsing_Downlod"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps8Hashable", "BaseModel"]
+- !private ["Ps8Hashable", "NSMutableArray"]
+- ["Ps8Hashable", "doParsing"]
+- ["Ps8Hashable", "doParsing_Downlod"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- !private ["CSo7NSArray", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- ["CSo14NSMutableArray", "deinit"]
+- !private ["CSo14NSMutableArray", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "BaseModel"]
+- ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "NSMutableArray"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "doParsing"]
+- ["CSo8NSObject", "doParsing_Downlod"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "BaseModel"]
+- !private ["PSo16NSObjectProtocol", "NSMutableArray"]
+- ["PSo16NSObjectProtocol", "doParsing"]
+- ["PSo16NSObjectProtocol", "doParsing_Downlod"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps9_Hashable", "BaseModel"]
+- !private ["Ps9_Hashable", "NSMutableArray"]
+- ["Ps9_Hashable", "doParsing"]
+- ["Ps9_Hashable", "doParsing_Downlod"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ContactBackup9BaseModel"
+- "C13ContactBackup20BasebackGroundParser"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- !private "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- "CSo14NSMutableArray"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps8Sequence"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+interface-hash: "7761ca41f37cf34d0e121646fd62514e"

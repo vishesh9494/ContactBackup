@@ -1,0 +1,297 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Person_Model"
+provides-nominal:
+- "C13ContactBackup12Person_Model"
+provides-member:
+- ["C13ContactBackup12Person_Model", ""]
+provides-dynamic-lookup:
+- "ZipCode"
+- "FirstName"
+- "lastName"
+- "WorkNum"
+- "SYNC"
+- "image"
+- "identifier"
+- "profile_id"
+- "City"
+- "contact_id"
+- "email"
+- "OtherMobNum"
+- "MobNum"
+- "remarks"
+- "Address"
+depends-top-level:
+- "StringLiteralType"
+- "String"
+- "BaseModel"
+- "Person_Model"
+depends-member:
+- ["Ps9AnyObject", "Address"]
+- ["Ps9AnyObject", "City"]
+- ["Ps9AnyObject", "FirstName"]
+- ["Ps9AnyObject", "MobNum"]
+- ["Ps9AnyObject", "OtherMobNum"]
+- ["Ps9AnyObject", "SYNC"]
+- ["Ps9AnyObject", "WorkNum"]
+- ["Ps9AnyObject", "ZipCode"]
+- ["Ps9AnyObject", "contact_id"]
+- ["Ps9AnyObject", "email"]
+- ["Ps9AnyObject", "identifier"]
+- ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lastName"]
+- ["Ps9AnyObject", "profile_id"]
+- ["Ps9AnyObject", "remarks"]
+- ["Ps9AnyObject", ""]
+- ["C13ContactBackup9BaseModel", "Address"]
+- ["C13ContactBackup9BaseModel", "City"]
+- ["C13ContactBackup9BaseModel", "FirstName"]
+- ["C13ContactBackup9BaseModel", "MobNum"]
+- ["C13ContactBackup9BaseModel", "OtherMobNum"]
+- ["C13ContactBackup9BaseModel", "SYNC"]
+- ["C13ContactBackup9BaseModel", "String"]
+- ["C13ContactBackup9BaseModel", "WorkNum"]
+- ["C13ContactBackup9BaseModel", "ZipCode"]
+- ["C13ContactBackup9BaseModel", "contact_id"]
+- ["C13ContactBackup9BaseModel", "deinit"]
+- ["C13ContactBackup9BaseModel", "email"]
+- ["C13ContactBackup9BaseModel", "identifier"]
+- ["C13ContactBackup9BaseModel", "image"]
+- ["C13ContactBackup9BaseModel", "init"]
+- ["C13ContactBackup9BaseModel", "lastName"]
+- ["C13ContactBackup9BaseModel", "profile_id"]
+- ["C13ContactBackup9BaseModel", "remarks"]
+- ["C13ContactBackup9BaseModel", ""]
+- ["PSo15CNKeyDescriptor", "init"]
+- ["Ps7CVarArg", "Address"]
+- ["Ps7CVarArg", "City"]
+- ["Ps7CVarArg", "FirstName"]
+- ["Ps7CVarArg", "MobNum"]
+- ["Ps7CVarArg", "OtherMobNum"]
+- ["Ps7CVarArg", "SYNC"]
+- ["Ps7CVarArg", "WorkNum"]
+- ["Ps7CVarArg", "ZipCode"]
+- ["Ps7CVarArg", "contact_id"]
+- ["Ps7CVarArg", "email"]
+- ["Ps7CVarArg", "identifier"]
+- ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "lastName"]
+- ["Ps7CVarArg", "profile_id"]
+- ["Ps7CVarArg", "remarks"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "Address"]
+- ["Ps28CustomDebugStringConvertible", "City"]
+- ["Ps28CustomDebugStringConvertible", "FirstName"]
+- ["Ps28CustomDebugStringConvertible", "MobNum"]
+- ["Ps28CustomDebugStringConvertible", "OtherMobNum"]
+- ["Ps28CustomDebugStringConvertible", "SYNC"]
+- ["Ps28CustomDebugStringConvertible", "WorkNum"]
+- ["Ps28CustomDebugStringConvertible", "ZipCode"]
+- ["Ps28CustomDebugStringConvertible", "contact_id"]
+- ["Ps28CustomDebugStringConvertible", "email"]
+- ["Ps28CustomDebugStringConvertible", "identifier"]
+- ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lastName"]
+- ["Ps28CustomDebugStringConvertible", "profile_id"]
+- ["Ps28CustomDebugStringConvertible", "remarks"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "Address"]
+- ["Ps23CustomStringConvertible", "City"]
+- ["Ps23CustomStringConvertible", "FirstName"]
+- ["Ps23CustomStringConvertible", "MobNum"]
+- ["Ps23CustomStringConvertible", "OtherMobNum"]
+- ["Ps23CustomStringConvertible", "SYNC"]
+- ["Ps23CustomStringConvertible", "WorkNum"]
+- ["Ps23CustomStringConvertible", "ZipCode"]
+- ["Ps23CustomStringConvertible", "contact_id"]
+- ["Ps23CustomStringConvertible", "email"]
+- ["Ps23CustomStringConvertible", "identifier"]
+- ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lastName"]
+- ["Ps23CustomStringConvertible", "profile_id"]
+- ["Ps23CustomStringConvertible", "remarks"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Address"]
+- ["Ps9Equatable", "City"]
+- ["Ps9Equatable", "FirstName"]
+- ["Ps9Equatable", "MobNum"]
+- ["Ps9Equatable", "OtherMobNum"]
+- ["Ps9Equatable", "SYNC"]
+- ["Ps9Equatable", "WorkNum"]
+- ["Ps9Equatable", "ZipCode"]
+- ["Ps9Equatable", "contact_id"]
+- ["Ps9Equatable", "email"]
+- ["Ps9Equatable", "identifier"]
+- ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lastName"]
+- ["Ps9Equatable", "profile_id"]
+- ["Ps9Equatable", "remarks"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "Address"]
+- ["Ps8Hashable", "City"]
+- ["Ps8Hashable", "FirstName"]
+- ["Ps8Hashable", "MobNum"]
+- ["Ps8Hashable", "OtherMobNum"]
+- ["Ps8Hashable", "SYNC"]
+- ["Ps8Hashable", "WorkNum"]
+- ["Ps8Hashable", "ZipCode"]
+- ["Ps8Hashable", "contact_id"]
+- ["Ps8Hashable", "email"]
+- ["Ps8Hashable", "identifier"]
+- ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lastName"]
+- ["Ps8Hashable", "profile_id"]
+- ["Ps8Hashable", "remarks"]
+- ["Ps8Hashable", ""]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Address"]
+- ["CSo8NSObject", "City"]
+- ["CSo8NSObject", "FirstName"]
+- ["CSo8NSObject", "MobNum"]
+- ["CSo8NSObject", "OtherMobNum"]
+- ["CSo8NSObject", "SYNC"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "WorkNum"]
+- ["CSo8NSObject", "ZipCode"]
+- ["CSo8NSObject", "contact_id"]
+- ["CSo8NSObject", "email"]
+- ["CSo8NSObject", "identifier"]
+- ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lastName"]
+- ["CSo8NSObject", "profile_id"]
+- ["CSo8NSObject", "remarks"]
+- ["PSo16NSObjectProtocol", "Address"]
+- ["PSo16NSObjectProtocol", "City"]
+- ["PSo16NSObjectProtocol", "FirstName"]
+- ["PSo16NSObjectProtocol", "MobNum"]
+- ["PSo16NSObjectProtocol", "OtherMobNum"]
+- ["PSo16NSObjectProtocol", "SYNC"]
+- ["PSo16NSObjectProtocol", "WorkNum"]
+- ["PSo16NSObjectProtocol", "ZipCode"]
+- ["PSo16NSObjectProtocol", "contact_id"]
+- ["PSo16NSObjectProtocol", "email"]
+- ["PSo16NSObjectProtocol", "identifier"]
+- ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lastName"]
+- ["PSo16NSObjectProtocol", "profile_id"]
+- ["PSo16NSObjectProtocol", "remarks"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["C13ContactBackup12Person_Model", "Address"]
+- ["C13ContactBackup12Person_Model", "City"]
+- ["C13ContactBackup12Person_Model", "FirstName"]
+- ["C13ContactBackup12Person_Model", "MobNum"]
+- ["C13ContactBackup12Person_Model", "OtherMobNum"]
+- ["C13ContactBackup12Person_Model", "SYNC"]
+- ["C13ContactBackup12Person_Model", "String"]
+- ["C13ContactBackup12Person_Model", "WorkNum"]
+- ["C13ContactBackup12Person_Model", "ZipCode"]
+- ["C13ContactBackup12Person_Model", "contact_id"]
+- ["C13ContactBackup12Person_Model", "deinit"]
+- ["C13ContactBackup12Person_Model", "email"]
+- ["C13ContactBackup12Person_Model", "identifier"]
+- ["C13ContactBackup12Person_Model", "image"]
+- ["C13ContactBackup12Person_Model", "init"]
+- ["C13ContactBackup12Person_Model", "lastName"]
+- ["C13ContactBackup12Person_Model", "profile_id"]
+- ["C13ContactBackup12Person_Model", "remarks"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "Address"]
+- ["Ps9_Hashable", "City"]
+- ["Ps9_Hashable", "FirstName"]
+- ["Ps9_Hashable", "MobNum"]
+- ["Ps9_Hashable", "OtherMobNum"]
+- ["Ps9_Hashable", "SYNC"]
+- ["Ps9_Hashable", "WorkNum"]
+- ["Ps9_Hashable", "ZipCode"]
+- ["Ps9_Hashable", "contact_id"]
+- ["Ps9_Hashable", "email"]
+- ["Ps9_Hashable", "identifier"]
+- ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "lastName"]
+- ["Ps9_Hashable", "profile_id"]
+- ["Ps9_Hashable", "remarks"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ContactBackup9BaseModel"
+- "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "C13ContactBackup12Person_Model"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/vishesh/Documents/Coding/iOS App-D/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Users/vishesh/Documents/Coding/iOS App-D/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Contacts.swiftmodule"
+interface-hash: "4becfdc251ca21d9f255838307e8ec4f"

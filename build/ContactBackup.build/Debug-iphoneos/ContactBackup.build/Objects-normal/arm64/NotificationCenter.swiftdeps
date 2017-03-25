@@ -1,0 +1,448 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NotificationCenter"
+provides-nominal:
+- "C13ContactBackup18NotificationCenter"
+provides-member:
+- ["C13ContactBackup18NotificationCenter", ""]
+provides-dynamic-lookup:
+- "DownlodContactFromServer"
+- "reachabilityChanged"
+- "setupNotification"
+- "reachability"
+- "UplodContacToSearver"
+depends-top-level:
+- !private "NSString"
+- "NotificationCenter"
+- "Void"
+- "Reachability"
+- !private "StringLiteralType"
+- "NSObject"
+- !private "!="
+- !private "UploadContactBG"
+- "CastingPrecedence"
+- "Notification"
+- "AssignmentPrecedence"
+- !private "=="
+- !private "UserDefaults"
+- !private ">"
+- !private "NSNotification"
+- !private "DownloadContactBG"
+- !private "Foundation"
+depends-member:
+- !private ["Ps9AnyObject", "DownloadContactBG"]
+- !private ["Ps9AnyObject", "DownloadContacts"]
+- ["Ps9AnyObject", "DownlodContactFromServer"]
+- !private ["Ps9AnyObject", "Foundation"]
+- !private ["Ps9AnyObject", "GetUploadContactList"]
+- !private ["Ps9AnyObject", "NSNotification"]
+- !private ["Ps9AnyObject", "Name"]
+- !private ["Ps9AnyObject", "NotificationCenter"]
+- !private ["Ps9AnyObject", "Reachability"]
+- !private ["Ps9AnyObject", "UploadContactBG"]
+- ["Ps9AnyObject", "UplodContacToSearver"]
+- !private ["Ps9AnyObject", "UserDefaults"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "forInternetConnection"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isReachable"]
+- !private ["Ps9AnyObject", "length"]
+- !private ["Ps9AnyObject", "object"]
+- ["Ps9AnyObject", "reachability"]
+- ["Ps9AnyObject", "reachabilityChanged"]
+- ["Ps9AnyObject", "setupNotification"]
+- !private ["Ps9AnyObject", "standard"]
+- !private ["Ps9AnyObject", "startNotifier"]
+- ["Ps9AnyObject", ""]
+- !private ["C13ContactBackup13BGBaseHandler", "DownloadContacts"]
+- !private ["C13ContactBackup13BGBaseHandler", "GetUploadContactList"]
+- !private ["C13ContactBackup13BGBaseHandler", "init"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "DownloadContacts"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "GetUploadContactList"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["PSo15CNKeyDescriptor", "length"]
+- !private ["Ps7CVarArg", "DownloadContactBG"]
+- !private ["Ps7CVarArg", "DownloadContacts"]
+- ["Ps7CVarArg", "DownlodContactFromServer"]
+- !private ["Ps7CVarArg", "Foundation"]
+- !private ["Ps7CVarArg", "GetUploadContactList"]
+- !private ["Ps7CVarArg", "NSNotification"]
+- !private ["Ps7CVarArg", "Name"]
+- !private ["Ps7CVarArg", "NotificationCenter"]
+- !private ["Ps7CVarArg", "Reachability"]
+- !private ["Ps7CVarArg", "UploadContactBG"]
+- ["Ps7CVarArg", "UplodContacToSearver"]
+- !private ["Ps7CVarArg", "UserDefaults"]
+- !private ["Ps7CVarArg", "addObserver"]
+- !private ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "forInternetConnection"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isReachable"]
+- !private ["Ps7CVarArg", "length"]
+- !private ["Ps7CVarArg", "object"]
+- ["Ps7CVarArg", "reachability"]
+- ["Ps7CVarArg", "reachabilityChanged"]
+- ["Ps7CVarArg", "setupNotification"]
+- !private ["Ps7CVarArg", "standard"]
+- !private ["Ps7CVarArg", "startNotifier"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "reachabilityChanged"]
+- !private ["Ps28CustomDebugStringConvertible", "DownloadContactBG"]
+- !private ["Ps28CustomDebugStringConvertible", "DownloadContacts"]
+- ["Ps28CustomDebugStringConvertible", "DownlodContactFromServer"]
+- !private ["Ps28CustomDebugStringConvertible", "Foundation"]
+- !private ["Ps28CustomDebugStringConvertible", "GetUploadContactList"]
+- !private ["Ps28CustomDebugStringConvertible", "NSNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "NotificationCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "RawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "Reachability"]
+- !private ["Ps28CustomDebugStringConvertible", "UploadContactBG"]
+- ["Ps28CustomDebugStringConvertible", "UplodContacToSearver"]
+- !private ["Ps28CustomDebugStringConvertible", "UserDefaults"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "forInternetConnection"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isReachable"]
+- !private ["Ps28CustomDebugStringConvertible", "length"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- ["Ps28CustomDebugStringConvertible", "reachability"]
+- ["Ps28CustomDebugStringConvertible", "reachabilityChanged"]
+- ["Ps28CustomDebugStringConvertible", "setupNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "standard"]
+- !private ["Ps28CustomDebugStringConvertible", "startNotifier"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "length"]
+- !private ["Ps17CustomReflectable", "RawValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "object"]
+- !private ["Ps23CustomStringConvertible", "DownloadContactBG"]
+- !private ["Ps23CustomStringConvertible", "DownloadContacts"]
+- ["Ps23CustomStringConvertible", "DownlodContactFromServer"]
+- !private ["Ps23CustomStringConvertible", "Foundation"]
+- !private ["Ps23CustomStringConvertible", "GetUploadContactList"]
+- !private ["Ps23CustomStringConvertible", "NSNotification"]
+- !private ["Ps23CustomStringConvertible", "Name"]
+- !private ["Ps23CustomStringConvertible", "NotificationCenter"]
+- !private ["Ps23CustomStringConvertible", "Reachability"]
+- !private ["Ps23CustomStringConvertible", "UploadContactBG"]
+- ["Ps23CustomStringConvertible", "UplodContacToSearver"]
+- !private ["Ps23CustomStringConvertible", "UserDefaults"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "forInternetConnection"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isReachable"]
+- !private ["Ps23CustomStringConvertible", "length"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- ["Ps23CustomStringConvertible", "reachability"]
+- ["Ps23CustomStringConvertible", "reachabilityChanged"]
+- ["Ps23CustomStringConvertible", "setupNotification"]
+- !private ["Ps23CustomStringConvertible", "standard"]
+- !private ["Ps23CustomStringConvertible", "startNotifier"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C13ContactBackup17DownloadContactBG", "DownloadContacts"]
+- ["C13ContactBackup17DownloadContactBG", "deinit"]
+- !private ["C13ContactBackup17DownloadContactBG", "init"]
+- !private ["Ps9Equatable", "DownloadContactBG"]
+- !private ["Ps9Equatable", "DownloadContacts"]
+- ["Ps9Equatable", "DownlodContactFromServer"]
+- !private ["Ps9Equatable", "Foundation"]
+- !private ["Ps9Equatable", "GetUploadContactList"]
+- !private ["Ps9Equatable", "NSNotification"]
+- !private ["Ps9Equatable", "Name"]
+- !private ["Ps9Equatable", "NotificationCenter"]
+- !private ["Ps9Equatable", "Reachability"]
+- !private ["Ps9Equatable", "UploadContactBG"]
+- ["Ps9Equatable", "UplodContacToSearver"]
+- !private ["Ps9Equatable", "UserDefaults"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "forInternetConnection"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isReachable"]
+- !private ["Ps9Equatable", "length"]
+- !private ["Ps9Equatable", "object"]
+- ["Ps9Equatable", "reachability"]
+- ["Ps9Equatable", "reachabilityChanged"]
+- ["Ps9Equatable", "setupNotification"]
+- !private ["Ps9Equatable", "standard"]
+- !private ["Ps9Equatable", "startNotifier"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "length"]
+- !private ["Ps23ExpressibleByNilLiteral", "RawValue"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "length"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "length"]
+- !private ["Ps8Hashable", "DownloadContactBG"]
+- !private ["Ps8Hashable", "DownloadContacts"]
+- ["Ps8Hashable", "DownlodContactFromServer"]
+- !private ["Ps8Hashable", "Foundation"]
+- !private ["Ps8Hashable", "GetUploadContactList"]
+- !private ["Ps8Hashable", "NSNotification"]
+- !private ["Ps8Hashable", "Name"]
+- !private ["Ps8Hashable", "NotificationCenter"]
+- !private ["Ps8Hashable", "Reachability"]
+- !private ["Ps8Hashable", "UploadContactBG"]
+- ["Ps8Hashable", "UplodContacToSearver"]
+- !private ["Ps8Hashable", "UserDefaults"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "forInternetConnection"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isReachable"]
+- !private ["Ps8Hashable", "length"]
+- !private ["Ps8Hashable", "object"]
+- ["Ps8Hashable", "reachability"]
+- ["Ps8Hashable", "reachabilityChanged"]
+- ["Ps8Hashable", "setupNotification"]
+- !private ["Ps8Hashable", "standard"]
+- !private ["Ps8Hashable", "startNotifier"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "Name"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo9NSCopying", "Name"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["CSo14NSNotification", "Name"]
+- !private ["CSo8NSObject", "DownloadContactBG"]
+- !private ["CSo8NSObject", "DownloadContacts"]
+- ["CSo8NSObject", "DownlodContactFromServer"]
+- !private ["CSo8NSObject", "Foundation"]
+- !private ["CSo8NSObject", "GetUploadContactList"]
+- !private ["CSo8NSObject", "NSNotification"]
+- !private ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "Name"]
+- ["CSo8NSObject", "Notification"]
+- !private ["CSo8NSObject", "NotificationCenter"]
+- ["CSo8NSObject", "Reachability"]
+- !private ["CSo8NSObject", "UploadContactBG"]
+- ["CSo8NSObject", "UplodContacToSearver"]
+- !private ["CSo8NSObject", "UserDefaults"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "forInternetConnection"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isReachable"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "object"]
+- ["CSo8NSObject", "reachability"]
+- ["CSo8NSObject", "reachabilityChanged"]
+- ["CSo8NSObject", "setupNotification"]
+- !private ["CSo8NSObject", "standard"]
+- !private ["CSo8NSObject", "startNotifier"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "DownloadContactBG"]
+- !private ["PSo16NSObjectProtocol", "DownloadContacts"]
+- ["PSo16NSObjectProtocol", "DownlodContactFromServer"]
+- !private ["PSo16NSObjectProtocol", "Foundation"]
+- !private ["PSo16NSObjectProtocol", "GetUploadContactList"]
+- !private ["PSo16NSObjectProtocol", "NSNotification"]
+- !private ["PSo16NSObjectProtocol", "Name"]
+- !private ["PSo16NSObjectProtocol", "NotificationCenter"]
+- !private ["PSo16NSObjectProtocol", "Reachability"]
+- !private ["PSo16NSObjectProtocol", "UploadContactBG"]
+- ["PSo16NSObjectProtocol", "UplodContacToSearver"]
+- !private ["PSo16NSObjectProtocol", "UserDefaults"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "forInternetConnection"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isReachable"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "object"]
+- ["PSo16NSObjectProtocol", "reachability"]
+- ["PSo16NSObjectProtocol", "reachabilityChanged"]
+- ["PSo16NSObjectProtocol", "setupNotification"]
+- !private ["PSo16NSObjectProtocol", "standard"]
+- !private ["PSo16NSObjectProtocol", "startNotifier"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "length"]
+- ["VCSo14NSNotification4Name", "deinit"]
+- !private ["VCSo14NSNotification4Name", "reachabilityChanged"]
+- ["V10Foundation12Notification", "deinit"]
+- !private ["V10Foundation12Notification", "object"]
+- !private ["C13ContactBackup18NotificationCenter", "DownloadContactBG"]
+- ["C13ContactBackup18NotificationCenter", "DownlodContactFromServer"]
+- !private ["C13ContactBackup18NotificationCenter", "Foundation"]
+- !private ["C13ContactBackup18NotificationCenter", "NSNotification"]
+- !private ["C13ContactBackup18NotificationCenter", "NSString"]
+- ["C13ContactBackup18NotificationCenter", "Notification"]
+- !private ["C13ContactBackup18NotificationCenter", "NotificationCenter"]
+- ["C13ContactBackup18NotificationCenter", "Reachability"]
+- !private ["C13ContactBackup18NotificationCenter", "UploadContactBG"]
+- ["C13ContactBackup18NotificationCenter", "UplodContacToSearver"]
+- !private ["C13ContactBackup18NotificationCenter", "UserDefaults"]
+- ["C13ContactBackup18NotificationCenter", "Void"]
+- ["C13ContactBackup18NotificationCenter", "deinit"]
+- ["C13ContactBackup18NotificationCenter", "init"]
+- ["C13ContactBackup18NotificationCenter", "reachability"]
+- ["C13ContactBackup18NotificationCenter", "reachabilityChanged"]
+- ["C13ContactBackup18NotificationCenter", "setupNotification"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "default"]
+- ["CSo18NotificationCenter", "deinit"]
+- !private ["Sq", "RawValue"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "reachabilityChanged"]
+- ["CSo12Reachability", "deinit"]
+- !private ["CSo12Reachability", "forInternetConnection"]
+- !private ["CSo12Reachability", "isReachable"]
+- !private ["CSo12Reachability", "startNotifier"]
+- !private ["P10Foundation20ReferenceConvertible", "object"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["C13ContactBackup15UploadContactBG", "GetUploadContactList"]
+- ["C13ContactBackup15UploadContactBG", "deinit"]
+- !private ["C13ContactBackup15UploadContactBG", "init"]
+- ["CSo12UserDefaults", "deinit"]
+- !private ["CSo12UserDefaults", "object"]
+- !private ["CSo12UserDefaults", "standard"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "Name"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "length"]
+- !private ["Ps9_Hashable", "DownloadContactBG"]
+- !private ["Ps9_Hashable", "DownloadContacts"]
+- ["Ps9_Hashable", "DownlodContactFromServer"]
+- !private ["Ps9_Hashable", "Foundation"]
+- !private ["Ps9_Hashable", "GetUploadContactList"]
+- !private ["Ps9_Hashable", "NSNotification"]
+- !private ["Ps9_Hashable", "Name"]
+- !private ["Ps9_Hashable", "NotificationCenter"]
+- !private ["Ps9_Hashable", "Reachability"]
+- !private ["Ps9_Hashable", "UploadContactBG"]
+- ["Ps9_Hashable", "UplodContacToSearver"]
+- !private ["Ps9_Hashable", "UserDefaults"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addObserver"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "forInternetConnection"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isReachable"]
+- !private ["Ps9_Hashable", "length"]
+- !private ["Ps9_Hashable", "object"]
+- ["Ps9_Hashable", "reachability"]
+- ["Ps9_Hashable", "reachabilityChanged"]
+- ["Ps9_Hashable", "setupNotification"]
+- !private ["Ps9_Hashable", "standard"]
+- !private ["Ps9_Hashable", "startNotifier"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "RawValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "object"]
+- !private ["Ps21_ObjectiveCBridgeable", "reachabilityChanged"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps20_SwiftNewtypeWrapper", "reachabilityChanged"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C13ContactBackup13BGBaseHandler"
+- !private "P13ContactBackup17BGOnReplyDelegate"
+- "Sb"
+- !private "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C13ContactBackup17DownloadContactBG"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo14NSNotification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "VCSo14NSNotification4Name"
+- "V10Foundation12Notification"
+- "C13ContactBackup18NotificationCenter"
+- "CSo18NotificationCenter"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- "CSo12Reachability"
+- !private "P10Foundation20ReferenceConvertible"
+- "V10ObjectiveC8Selector"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "C13ContactBackup15UploadContactBG"
+- "CSo12UserDefaults"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+interface-hash: "da4f81364027bf7c06e65e619e2a120a"

@@ -1,0 +1,292 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Req_Reset"
+provides-nominal:
+- "C13ContactBackup9Req_Reset"
+provides-member:
+- ["C13ContactBackup9Req_Reset", ""]
+provides-dynamic-lookup:
+- "sendRequest"
+depends-top-level:
+- !private "Parser_Reset"
+- "BaseViewController"
+- "AssignmentPrecedence"
+- "Req_Reset"
+- !private "URLGenerator"
+- "BaseModel"
+- !private "NSDictionary"
+- !private "StringLiteralType"
+- "BaseRequest"
+depends-member:
+- !private ["Ps9AnyObject", "GETMethodForReset"]
+- !private ["Ps9AnyObject", "HTTPMethod"]
+- !private ["Ps9AnyObject", "NSDictionary"]
+- !private ["Ps9AnyObject", "Parser_Reset"]
+- !private ["Ps9AnyObject", "URLGenerator"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "obj_baseParser"]
+- !private ["Ps9AnyObject", "obj_baseViewController"]
+- !private ["Ps9AnyObject", "obj_reqModel"]
+- !private ["Ps9AnyObject", "parameter"]
+- !private ["Ps9AnyObject", "requestDelegate"]
+- ["Ps9AnyObject", "sendRequest"]
+- !private ["Ps9AnyObject", "sendRequestToServer"]
+- !private ["Ps9AnyObject", "url"]
+- ["Ps9AnyObject", ""]
+- ["C13ContactBackup9BaseModel", "deinit"]
+- !private ["C13ContactBackup9BaseModel", "parameter"]
+- !private ["C13ContactBackup10BaseParser", "init"]
+- ["C13ContactBackup11BaseRequest", "BaseModel"]
+- ["C13ContactBackup11BaseRequest", "BaseViewController"]
+- !private ["C13ContactBackup11BaseRequest", "HTTPMethod"]
+- !private ["C13ContactBackup11BaseRequest", "NSDictionary"]
+- !private ["C13ContactBackup11BaseRequest", "Parser_Reset"]
+- !private ["C13ContactBackup11BaseRequest", "URLGenerator"]
+- ["C13ContactBackup11BaseRequest", "deinit"]
+- ["C13ContactBackup11BaseRequest", "init"]
+- !private ["C13ContactBackup11BaseRequest", "obj_baseParser"]
+- !private ["C13ContactBackup11BaseRequest", "obj_baseViewController"]
+- !private ["C13ContactBackup11BaseRequest", "obj_reqModel"]
+- !private ["C13ContactBackup11BaseRequest", "requestDelegate"]
+- ["C13ContactBackup11BaseRequest", "sendRequest"]
+- !private ["C13ContactBackup11BaseRequest", "sendRequestToServer"]
+- !private ["C13ContactBackup11BaseRequest", "url"]
+- ["C13ContactBackup11BaseRequest", ""]
+- ["C13ContactBackup18BaseViewController", "deinit"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "GETMethodForReset"]
+- !private ["Ps7CVarArg", "HTTPMethod"]
+- !private ["Ps7CVarArg", "NSDictionary"]
+- !private ["Ps7CVarArg", "Parser_Reset"]
+- !private ["Ps7CVarArg", "URLGenerator"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "obj_baseParser"]
+- !private ["Ps7CVarArg", "obj_baseViewController"]
+- !private ["Ps7CVarArg", "obj_reqModel"]
+- !private ["Ps7CVarArg", "parameter"]
+- !private ["Ps7CVarArg", "requestDelegate"]
+- ["Ps7CVarArg", "sendRequest"]
+- !private ["Ps7CVarArg", "sendRequestToServer"]
+- !private ["Ps7CVarArg", "url"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "GETMethodForReset"]
+- !private ["Ps28CustomDebugStringConvertible", "HTTPMethod"]
+- !private ["Ps28CustomDebugStringConvertible", "NSDictionary"]
+- !private ["Ps28CustomDebugStringConvertible", "Parser_Reset"]
+- !private ["Ps28CustomDebugStringConvertible", "URLGenerator"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "obj_baseParser"]
+- !private ["Ps28CustomDebugStringConvertible", "obj_baseViewController"]
+- !private ["Ps28CustomDebugStringConvertible", "obj_reqModel"]
+- !private ["Ps28CustomDebugStringConvertible", "parameter"]
+- !private ["Ps28CustomDebugStringConvertible", "requestDelegate"]
+- ["Ps28CustomDebugStringConvertible", "sendRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "sendRequestToServer"]
+- !private ["Ps28CustomDebugStringConvertible", "url"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "GETMethodForReset"]
+- !private ["Ps23CustomStringConvertible", "HTTPMethod"]
+- !private ["Ps23CustomStringConvertible", "NSDictionary"]
+- !private ["Ps23CustomStringConvertible", "Parser_Reset"]
+- !private ["Ps23CustomStringConvertible", "URLGenerator"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "obj_baseParser"]
+- !private ["Ps23CustomStringConvertible", "obj_baseViewController"]
+- !private ["Ps23CustomStringConvertible", "obj_reqModel"]
+- !private ["Ps23CustomStringConvertible", "parameter"]
+- !private ["Ps23CustomStringConvertible", "requestDelegate"]
+- ["Ps23CustomStringConvertible", "sendRequest"]
+- !private ["Ps23CustomStringConvertible", "sendRequestToServer"]
+- !private ["Ps23CustomStringConvertible", "url"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "GETMethodForReset"]
+- !private ["Ps9Equatable", "HTTPMethod"]
+- !private ["Ps9Equatable", "NSDictionary"]
+- !private ["Ps9Equatable", "Parser_Reset"]
+- !private ["Ps9Equatable", "URLGenerator"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "obj_baseParser"]
+- !private ["Ps9Equatable", "obj_baseViewController"]
+- !private ["Ps9Equatable", "obj_reqModel"]
+- !private ["Ps9Equatable", "parameter"]
+- !private ["Ps9Equatable", "requestDelegate"]
+- ["Ps9Equatable", "sendRequest"]
+- !private ["Ps9Equatable", "sendRequestToServer"]
+- !private ["Ps9Equatable", "url"]
+- ["Ps9Equatable", ""]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "GETMethodForReset"]
+- !private ["Ps8Hashable", "HTTPMethod"]
+- !private ["Ps8Hashable", "NSDictionary"]
+- !private ["Ps8Hashable", "Parser_Reset"]
+- !private ["Ps8Hashable", "URLGenerator"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "obj_baseParser"]
+- !private ["Ps8Hashable", "obj_baseViewController"]
+- !private ["Ps8Hashable", "obj_reqModel"]
+- !private ["Ps8Hashable", "parameter"]
+- !private ["Ps8Hashable", "requestDelegate"]
+- ["Ps8Hashable", "sendRequest"]
+- !private ["Ps8Hashable", "sendRequestToServer"]
+- !private ["Ps8Hashable", "url"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo12NSDictionary", "deinit"]
+- !private ["CSo12NSDictionary", "init"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- ["CSo14NSMutableArray", "deinit"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "BaseModel"]
+- ["CSo8NSObject", "BaseViewController"]
+- !private ["CSo8NSObject", "GETMethodForReset"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "Parser_Reset"]
+- !private ["CSo8NSObject", "URLGenerator"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "obj_baseParser"]
+- !private ["CSo8NSObject", "obj_baseViewController"]
+- !private ["CSo8NSObject", "obj_reqModel"]
+- !private ["CSo8NSObject", "parameter"]
+- !private ["CSo8NSObject", "requestDelegate"]
+- ["CSo8NSObject", "sendRequest"]
+- !private ["CSo8NSObject", "sendRequestToServer"]
+- !private ["CSo8NSObject", "url"]
+- !private ["PSo16NSObjectProtocol", "GETMethodForReset"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- !private ["PSo16NSObjectProtocol", "NSDictionary"]
+- !private ["PSo16NSObjectProtocol", "Parser_Reset"]
+- !private ["PSo16NSObjectProtocol", "URLGenerator"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "obj_baseParser"]
+- !private ["PSo16NSObjectProtocol", "obj_baseViewController"]
+- !private ["PSo16NSObjectProtocol", "obj_reqModel"]
+- !private ["PSo16NSObjectProtocol", "parameter"]
+- !private ["PSo16NSObjectProtocol", "requestDelegate"]
+- ["PSo16NSObjectProtocol", "sendRequest"]
+- !private ["PSo16NSObjectProtocol", "sendRequestToServer"]
+- !private ["PSo16NSObjectProtocol", "url"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["C13ContactBackup12Parser_Reset", "deinit"]
+- !private ["C13ContactBackup12Parser_Reset", "init"]
+- ["C13ContactBackup9Req_Reset", "BaseModel"]
+- ["C13ContactBackup9Req_Reset", "BaseViewController"]
+- !private ["C13ContactBackup9Req_Reset", "HTTPMethod"]
+- !private ["C13ContactBackup9Req_Reset", "NSDictionary"]
+- !private ["C13ContactBackup9Req_Reset", "Parser_Reset"]
+- !private ["C13ContactBackup9Req_Reset", "URLGenerator"]
+- ["C13ContactBackup9Req_Reset", "deinit"]
+- ["C13ContactBackup9Req_Reset", "init"]
+- !private ["C13ContactBackup9Req_Reset", "obj_baseParser"]
+- !private ["C13ContactBackup9Req_Reset", "obj_baseViewController"]
+- !private ["C13ContactBackup9Req_Reset", "obj_reqModel"]
+- !private ["C13ContactBackup9Req_Reset", "requestDelegate"]
+- ["C13ContactBackup9Req_Reset", "sendRequest"]
+- !private ["C13ContactBackup9Req_Reset", "sendRequestToServer"]
+- !private ["C13ContactBackup9Req_Reset", "url"]
+- !private ["Ps8Sequence", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["C13ContactBackup12URLGenerator", "GETMethodForReset"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "GETMethodForReset"]
+- !private ["Ps9_Hashable", "HTTPMethod"]
+- !private ["Ps9_Hashable", "NSDictionary"]
+- !private ["Ps9_Hashable", "Parser_Reset"]
+- !private ["Ps9_Hashable", "URLGenerator"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "obj_baseParser"]
+- !private ["Ps9_Hashable", "obj_baseViewController"]
+- !private ["Ps9_Hashable", "obj_reqModel"]
+- !private ["Ps9_Hashable", "parameter"]
+- !private ["Ps9_Hashable", "requestDelegate"]
+- ["Ps9_Hashable", "sendRequest"]
+- !private ["Ps9_Hashable", "sendRequestToServer"]
+- !private ["Ps9_Hashable", "url"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ContactBackup9BaseModel"
+- !private "C13ContactBackup10BaseParser"
+- "C13ContactBackup11BaseRequest"
+- "C13ContactBackup18BaseViewController"
+- !private "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- "CSo14NSMutableArray"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "C13ContactBackup12Parser_Reset"
+- "C13ContactBackup9Req_Reset"
+- !private "Ps8Sequence"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "V10Foundation3URL"
+- !private "C13ContactBackup12URLGenerator"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+interface-hash: "6a53b182012a5fe764e8ec7e1e40c008"

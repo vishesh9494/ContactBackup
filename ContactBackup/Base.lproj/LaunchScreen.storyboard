@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,15 +13,49 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mqr-fc-bJw">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slpash-screen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ye6-rp-lYM">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Ye6-rp-lYM" firstAttribute="top" secondItem="Mqr-fc-bJw" secondAttribute="top" id="L57-fh-Uqu"/>
+                                    <constraint firstItem="Ye6-rp-lYM" firstAttribute="leading" secondItem="Mqr-fc-bJw" secondAttribute="leading" id="TAf-Ln-vyT"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ye6-rp-lYM" secondAttribute="trailing" id="brx-Ji-oY7"/>
+                                    <constraint firstAttribute="bottom" secondItem="Ye6-rp-lYM" secondAttribute="bottom" id="w2n-cg-ppv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Mqr-fc-bJw" secondAttribute="bottom" id="3QQ-fU-5Kq"/>
+                            <constraint firstItem="Mqr-fc-bJw" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="X7m-92-GZ2"/>
+                            <constraint firstAttribute="trailing" secondItem="Mqr-fc-bJw" secondAttribute="trailing" id="ZK9-QN-SWL"/>
+                            <constraint firstItem="Mqr-fc-bJw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="mVr-Ck-KGk"/>
+                            <constraint firstAttribute="bottom" secondItem="Mqr-fc-bJw" secondAttribute="bottom" id="mjw-gs-t1T"/>
+                            <constraint firstItem="Mqr-fc-bJw" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="xHC-mI-jzF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xHC-mI-jzF"/>
+                                <exclude reference="3QQ-fU-5Kq"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="461" y="388"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="slpash-screen.png" width="414" height="736"/>
+    </resources>
 </document>

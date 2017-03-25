@@ -1,0 +1,654 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Parser_DownloadBG"
+provides-nominal:
+- "C13ContactBackup17Parser_DownloadBG"
+provides-member:
+- ["C13ContactBackup17Parser_DownloadBG", ""]
+provides-dynamic-lookup:
+- "doParsing_Downlod"
+depends-top-level:
+- "BasebackGroundParser"
+- !private "Person_Model"
+- !private "UnicodeScalarType"
+- "Parser_DownloadBG"
+- !private "..<"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "AnyObject"
+- !private ">"
+- !private "print"
+- !private "String"
+- !private "StringLiteralType"
+- !private "NSArray"
+- !private "JSONSerialization"
+- !private "NSNull"
+- !private "NSDictionary"
+- !private "!"
+- "NSMutableArray"
+- "Data"
+- !private "!="
+depends-member:
+- !private ["Ps9AnyObject", "Address"]
+- !private ["Ps9AnyObject", "City"]
+- !private ["Ps9AnyObject", "FirstName"]
+- !private ["Ps9AnyObject", "JSONSerialization"]
+- !private ["Ps9AnyObject", "MobNum"]
+- !private ["Ps9AnyObject", "NSMutableArray"]
+- !private ["Ps9AnyObject", "OtherMobNum"]
+- !private ["Ps9AnyObject", "Person_Model"]
+- !private ["Ps9AnyObject", "ReadingOptions"]
+- !private ["Ps9AnyObject", "WorkNum"]
+- !private ["Ps9AnyObject", "ZipCode"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "count"]
+- ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "doParsing_Downlod"]
+- !private ["Ps9AnyObject", "email"]
+- !private ["Ps9AnyObject", "errorCode"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "jsonObject"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "profile_id"]
+- !private ["Ps9AnyObject", "remarks"]
+- !private ["Ps9AnyObject", "resposeStatus"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- !private ["C13ContactBackup9BaseModel", "Address"]
+- !private ["C13ContactBackup9BaseModel", "City"]
+- !private ["C13ContactBackup9BaseModel", "FirstName"]
+- !private ["C13ContactBackup9BaseModel", "MobNum"]
+- !private ["C13ContactBackup9BaseModel", "OtherMobNum"]
+- !private ["C13ContactBackup9BaseModel", "WorkNum"]
+- !private ["C13ContactBackup9BaseModel", "ZipCode"]
+- !private ["C13ContactBackup9BaseModel", "email"]
+- !private ["C13ContactBackup9BaseModel", "errorCode"]
+- !private ["C13ContactBackup9BaseModel", "image"]
+- !private ["C13ContactBackup9BaseModel", "init"]
+- !private ["C13ContactBackup9BaseModel", "profile_id"]
+- !private ["C13ContactBackup9BaseModel", "remarks"]
+- !private ["C13ContactBackup9BaseModel", "resposeStatus"]
+- !private ["C13ContactBackup20BasebackGroundParser", "AnyObject"]
+- ["C13ContactBackup20BasebackGroundParser", "Data"]
+- !private ["C13ContactBackup20BasebackGroundParser", "JSONSerialization"]
+- !private ["C13ContactBackup20BasebackGroundParser", "NSArray"]
+- !private ["C13ContactBackup20BasebackGroundParser", "NSDictionary"]
+- ["C13ContactBackup20BasebackGroundParser", "NSMutableArray"]
+- !private ["C13ContactBackup20BasebackGroundParser", "NSNull"]
+- !private ["C13ContactBackup20BasebackGroundParser", "Person_Model"]
+- !private ["C13ContactBackup20BasebackGroundParser", "String"]
+- ["C13ContactBackup20BasebackGroundParser", "deinit"]
+- ["C13ContactBackup20BasebackGroundParser", "doParsing_Downlod"]
+- ["C13ContactBackup20BasebackGroundParser", "init"]
+- !private ["C13ContactBackup20BasebackGroundParser", "print"]
+- ["C13ContactBackup20BasebackGroundParser", ""]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "Address"]
+- !private ["Ps7CVarArg", "City"]
+- !private ["Ps7CVarArg", "FirstName"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "JSONSerialization"]
+- !private ["Ps7CVarArg", "MobNum"]
+- !private ["Ps7CVarArg", "NSMutableArray"]
+- !private ["Ps7CVarArg", "OtherMobNum"]
+- !private ["Ps7CVarArg", "Person_Model"]
+- !private ["Ps7CVarArg", "ReadingOptions"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "WorkNum"]
+- !private ["Ps7CVarArg", "ZipCode"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "doParsing_Downlod"]
+- !private ["Ps7CVarArg", "email"]
+- !private ["Ps7CVarArg", "errorCode"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "jsonObject"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "profile_id"]
+- !private ["Ps7CVarArg", "remarks"]
+- !private ["Ps7CVarArg", "resposeStatus"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "value"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Vs14CountableRange", "Iterator"]
+- !private ["Vs14CountableRange", "_Element"]
+- ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Address"]
+- !private ["Ps28CustomDebugStringConvertible", "City"]
+- !private ["Ps28CustomDebugStringConvertible", "FirstName"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "JSONSerialization"]
+- !private ["Ps28CustomDebugStringConvertible", "MobNum"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableArray"]
+- !private ["Ps28CustomDebugStringConvertible", "OtherMobNum"]
+- !private ["Ps28CustomDebugStringConvertible", "Person_Model"]
+- !private ["Ps28CustomDebugStringConvertible", "ReadingOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "WorkNum"]
+- !private ["Ps28CustomDebugStringConvertible", "ZipCode"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "doParsing_Downlod"]
+- !private ["Ps28CustomDebugStringConvertible", "email"]
+- !private ["Ps28CustomDebugStringConvertible", "errorCode"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "jsonObject"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "profile_id"]
+- !private ["Ps28CustomDebugStringConvertible", "remarks"]
+- !private ["Ps28CustomDebugStringConvertible", "resposeStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "add"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps17CustomReflectable", "value"]
+- !private ["Ps23CustomStringConvertible", "Address"]
+- !private ["Ps23CustomStringConvertible", "City"]
+- !private ["Ps23CustomStringConvertible", "FirstName"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "JSONSerialization"]
+- !private ["Ps23CustomStringConvertible", "MobNum"]
+- !private ["Ps23CustomStringConvertible", "NSMutableArray"]
+- !private ["Ps23CustomStringConvertible", "OtherMobNum"]
+- !private ["Ps23CustomStringConvertible", "Person_Model"]
+- !private ["Ps23CustomStringConvertible", "ReadingOptions"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "WorkNum"]
+- !private ["Ps23CustomStringConvertible", "ZipCode"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "doParsing_Downlod"]
+- !private ["Ps23CustomStringConvertible", "email"]
+- !private ["Ps23CustomStringConvertible", "errorCode"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "jsonObject"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "profile_id"]
+- !private ["Ps23CustomStringConvertible", "remarks"]
+- !private ["Ps23CustomStringConvertible", "resposeStatus"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Data", "deinit"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Address"]
+- !private ["Ps9Equatable", "City"]
+- !private ["Ps9Equatable", "FirstName"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "JSONSerialization"]
+- !private ["Ps9Equatable", "MobNum"]
+- !private ["Ps9Equatable", "NSMutableArray"]
+- !private ["Ps9Equatable", "OtherMobNum"]
+- !private ["Ps9Equatable", "Person_Model"]
+- !private ["Ps9Equatable", "ReadingOptions"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "WorkNum"]
+- !private ["Ps9Equatable", "ZipCode"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_Element"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "allowFragments"]
+- !private ["Ps9Equatable", "count"]
+- ["Ps9Equatable", "doParsing_Downlod"]
+- !private ["Ps9Equatable", "email"]
+- !private ["Ps9Equatable", "errorCode"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "jsonObject"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "profile_id"]
+- !private ["Ps9Equatable", "remarks"]
+- !private ["Ps9Equatable", "resposeStatus"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "add"]
+- !private ["Ps25ExpressibleByArrayLiteral", "allowFragments"]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Address"]
+- !private ["Ps8Hashable", "City"]
+- !private ["Ps8Hashable", "FirstName"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "JSONSerialization"]
+- !private ["Ps8Hashable", "MobNum"]
+- !private ["Ps8Hashable", "NSMutableArray"]
+- !private ["Ps8Hashable", "OtherMobNum"]
+- !private ["Ps8Hashable", "Person_Model"]
+- !private ["Ps8Hashable", "ReadingOptions"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "WorkNum"]
+- !private ["Ps8Hashable", "ZipCode"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "count"]
+- ["Ps8Hashable", "doParsing_Downlod"]
+- !private ["Ps8Hashable", "email"]
+- !private ["Ps8Hashable", "errorCode"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "jsonObject"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "profile_id"]
+- !private ["Ps8Hashable", "remarks"]
+- !private ["Ps8Hashable", "resposeStatus"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["CSo17JSONSerialization", "ReadingOptions"]
+- !private ["CSo17JSONSerialization", "jsonObject"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo7NSArray", "add"]
+- !private ["CSo7NSArray", "count"]
+- ["CSo7NSArray", "deinit"]
+- !private ["CSo7NSArray", "init"]
+- !private ["CSo7NSArray", "subscript"]
+- !private ["PSo8NSCoding", "add"]
+- !private ["PSo8NSCoding", "count"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo8NSCoding", "value"]
+- !private ["PSo9NSCopying", "add"]
+- !private ["PSo9NSCopying", "count"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["PSo9NSCopying", "value"]
+- ["CSo12NSDictionary", "deinit"]
+- !private ["CSo12NSDictionary", "value"]
+- !private ["PSo17NSFastEnumeration", "add"]
+- !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo17NSFastEnumeration", "value"]
+- !private ["CSo14NSMutableArray", "add"]
+- ["CSo14NSMutableArray", "deinit"]
+- !private ["CSo14NSMutableArray", "init"]
+- !private ["PSo16NSMutableCopying", "add"]
+- !private ["PSo16NSMutableCopying", "count"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["PSo16NSMutableCopying", "value"]
+- ["CSo6NSNull", "deinit"]
+- !private ["CSo8NSObject", "Address"]
+- !private ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "City"]
+- ["CSo8NSObject", "Data"]
+- !private ["CSo8NSObject", "FirstName"]
+- !private ["CSo8NSObject", "JSONSerialization"]
+- !private ["CSo8NSObject", "MobNum"]
+- !private ["CSo8NSObject", "NSArray"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- ["CSo8NSObject", "NSMutableArray"]
+- !private ["CSo8NSObject", "NSNull"]
+- !private ["CSo8NSObject", "OtherMobNum"]
+- !private ["CSo8NSObject", "Person_Model"]
+- !private ["CSo8NSObject", "ReadingOptions"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "WorkNum"]
+- !private ["CSo8NSObject", "ZipCode"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "count"]
+- ["CSo8NSObject", "doParsing_Downlod"]
+- !private ["CSo8NSObject", "email"]
+- !private ["CSo8NSObject", "errorCode"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "jsonObject"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "profile_id"]
+- !private ["CSo8NSObject", "remarks"]
+- !private ["CSo8NSObject", "resposeStatus"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "value"]
+- !private ["PSo16NSObjectProtocol", "Address"]
+- !private ["PSo16NSObjectProtocol", "City"]
+- !private ["PSo16NSObjectProtocol", "FirstName"]
+- !private ["PSo16NSObjectProtocol", "JSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "MobNum"]
+- !private ["PSo16NSObjectProtocol", "NSMutableArray"]
+- !private ["PSo16NSObjectProtocol", "OtherMobNum"]
+- !private ["PSo16NSObjectProtocol", "Person_Model"]
+- !private ["PSo16NSObjectProtocol", "ReadingOptions"]
+- !private ["PSo16NSObjectProtocol", "WorkNum"]
+- !private ["PSo16NSObjectProtocol", "ZipCode"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- ["PSo16NSObjectProtocol", "doParsing_Downlod"]
+- !private ["PSo16NSObjectProtocol", "email"]
+- !private ["PSo16NSObjectProtocol", "errorCode"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "jsonObject"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "profile_id"]
+- !private ["PSo16NSObjectProtocol", "remarks"]
+- !private ["PSo16NSObjectProtocol", "resposeStatus"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "add"]
+- !private ["PSo14NSSecureCoding", "count"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["PSo14NSSecureCoding", "value"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "allowFragments"]
+- ["Sq", "deinit"]
+- !private ["C13ContactBackup17Parser_DownloadBG", "AnyObject"]
+- ["C13ContactBackup17Parser_DownloadBG", "Data"]
+- !private ["C13ContactBackup17Parser_DownloadBG", "JSONSerialization"]
+- !private ["C13ContactBackup17Parser_DownloadBG", "NSArray"]
+- !private ["C13ContactBackup17Parser_DownloadBG", "NSDictionary"]
+- ["C13ContactBackup17Parser_DownloadBG", "NSMutableArray"]
+- !private ["C13ContactBackup17Parser_DownloadBG", "NSNull"]
+- !private ["C13ContactBackup17Parser_DownloadBG", "Person_Model"]
+- !private ["C13ContactBackup17Parser_DownloadBG", "String"]
+- ["C13ContactBackup17Parser_DownloadBG", "deinit"]
+- ["C13ContactBackup17Parser_DownloadBG", "doParsing_Downlod"]
+- ["C13ContactBackup17Parser_DownloadBG", "init"]
+- !private ["C13ContactBackup17Parser_DownloadBG", "print"]
+- !private ["C13ContactBackup12Person_Model", "Address"]
+- !private ["C13ContactBackup12Person_Model", "City"]
+- !private ["C13ContactBackup12Person_Model", "FirstName"]
+- !private ["C13ContactBackup12Person_Model", "MobNum"]
+- !private ["C13ContactBackup12Person_Model", "OtherMobNum"]
+- !private ["C13ContactBackup12Person_Model", "WorkNum"]
+- !private ["C13ContactBackup12Person_Model", "ZipCode"]
+- ["C13ContactBackup12Person_Model", "deinit"]
+- !private ["C13ContactBackup12Person_Model", "email"]
+- !private ["C13ContactBackup12Person_Model", "errorCode"]
+- !private ["C13ContactBackup12Person_Model", "image"]
+- !private ["C13ContactBackup12Person_Model", "init"]
+- !private ["C13ContactBackup12Person_Model", "profile_id"]
+- !private ["C13ContactBackup12Person_Model", "remarks"]
+- !private ["C13ContactBackup12Person_Model", "resposeStatus"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "allowFragments"]
+- !private ["VCSo17JSONSerialization14ReadingOptions", "allowFragments"]
+- ["VCSo17JSONSerialization14ReadingOptions", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "add"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps8Sequence", "value"]
+- !private ["Ps10SetAlgebra", "allowFragments"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Address"]
+- !private ["Ps9_Hashable", "City"]
+- !private ["Ps9_Hashable", "FirstName"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "JSONSerialization"]
+- !private ["Ps9_Hashable", "MobNum"]
+- !private ["Ps9_Hashable", "NSMutableArray"]
+- !private ["Ps9_Hashable", "OtherMobNum"]
+- !private ["Ps9_Hashable", "Person_Model"]
+- !private ["Ps9_Hashable", "ReadingOptions"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "WorkNum"]
+- !private ["Ps9_Hashable", "ZipCode"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "count"]
+- ["Ps9_Hashable", "doParsing_Downlod"]
+- !private ["Ps9_Hashable", "email"]
+- !private ["Ps9_Hashable", "errorCode"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "jsonObject"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "profile_id"]
+- !private ["Ps9_Hashable", "remarks"]
+- !private ["Ps9_Hashable", "resposeStatus"]
+- !private ["Ps9_Hashable", "subscript"]
+- !private ["Ps9_Hashable", "value"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "C13ContactBackup9BaseModel"
+- "C13ContactBackup20BasebackGroundParser"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "CSo17JSONSerialization"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo12NSDictionary"
+- !private "PSo17NSFastEnumeration"
+- "CSo14NSMutableArray"
+- !private "PSo16NSMutableCopying"
+- "CSo6NSNull"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- "C13ContactBackup17Parser_DownloadBG"
+- "C13ContactBackup12Person_Model"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
+- !private "Ps16RawRepresentable"
+- "VCSo17JSONSerialization14ReadingOptions"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+- !private "value"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+interface-hash: "1a1cc2c77389517b9f0e2de490034d38"

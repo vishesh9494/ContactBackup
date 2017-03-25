@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseParser"
+provides-nominal:
+- "C13ContactBackup10BaseParser"
+provides-member:
+- ["C13ContactBackup10BaseParser", ""]
+provides-dynamic-lookup:
+- "getParser"
+- "performData"
+depends-top-level:
+- "BaseParser"
+- "Data"
+- "NSMutableArray"
+- "BaseModel"
+- "NSObject"
+depends-member:
+- !private ["Ps9AnyObject", "BaseModel"]
+- !private ["Ps9AnyObject", "NSMutableArray"]
+- ["Ps9AnyObject", "getParser"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "performData"]
+- ["Ps9AnyObject", ""]
+- ["C13ContactBackup9BaseModel", "deinit"]
+- !private ["C13ContactBackup9BaseModel", "init"]
+- ["C13ContactBackup10BaseParser", "BaseModel"]
+- ["C13ContactBackup10BaseParser", "Data"]
+- ["C13ContactBackup10BaseParser", "NSMutableArray"]
+- ["C13ContactBackup10BaseParser", "deinit"]
+- ["C13ContactBackup10BaseParser", "getParser"]
+- ["C13ContactBackup10BaseParser", "init"]
+- ["C13ContactBackup10BaseParser", "performData"]
+- !private ["Ps7CVarArg", "BaseModel"]
+- !private ["Ps7CVarArg", "NSMutableArray"]
+- ["Ps7CVarArg", "getParser"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "performData"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "BaseModel"]
+- !private ["Ps28CustomDebugStringConvertible", "NSMutableArray"]
+- ["Ps28CustomDebugStringConvertible", "getParser"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "performData"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "BaseModel"]
+- !private ["Ps23CustomStringConvertible", "NSMutableArray"]
+- ["Ps23CustomStringConvertible", "getParser"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "performData"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "BaseModel"]
+- !private ["Ps9Equatable", "NSMutableArray"]
+- ["Ps9Equatable", "getParser"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "performData"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps8Hashable", "BaseModel"]
+- !private ["Ps8Hashable", "NSMutableArray"]
+- ["Ps8Hashable", "getParser"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "performData"]
+- ["Ps8Hashable", ""]
+- !private ["CSo7NSArray", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo17NSFastEnumeration", "init"]
+- ["CSo14NSMutableArray", "deinit"]
+- !private ["CSo14NSMutableArray", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "BaseModel"]
+- ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "NSMutableArray"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "getParser"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "performData"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "BaseModel"]
+- !private ["PSo16NSObjectProtocol", "NSMutableArray"]
+- ["PSo16NSObjectProtocol", "getParser"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "performData"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps9_Hashable", "BaseModel"]
+- !private ["Ps9_Hashable", "NSMutableArray"]
+- ["Ps9_Hashable", "getParser"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "performData"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ContactBackup9BaseModel"
+- "C13ContactBackup10BaseParser"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps8Hashable"
+- !private "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- "CSo14NSMutableArray"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "Ps8Sequence"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+interface-hash: "d514b3c86a68d64d7aa6d12cf21b6f56"

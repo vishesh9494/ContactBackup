@@ -1,0 +1,555 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UploadContactBG"
+provides-nominal:
+- "C13ContactBackup15UploadContactBG"
+provides-member:
+- ["C13ContactBackup15UploadContactBG", ""]
+provides-dynamic-lookup:
+- "onReply"
+- "connectionError"
+- "GetUploadContactList"
+depends-top-level:
+- !private "=="
+- "BaseModel"
+- "CastingPrecedence"
+- !private "Person_Model"
+- !private "..<"
+- "Data"
+- !private "UIImage"
+- "BGBaseHandler"
+- !private "Parser_UploadBG"
+- "UploadContactBG"
+- "BasebackGroundParser"
+- !private "BGRequest_UploadRequest"
+depends-member:
+- !private ["Ps9AnyObject", "BGRequest_UploadRequest"]
+- !private ["Ps9AnyObject", "GetContactTobeUpload"]
+- !private ["Ps9AnyObject", "GetImagePath"]
+- ["Ps9AnyObject", "GetUploadContactList"]
+- !private ["Ps9AnyObject", "Parser_UploadBG"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "UpdateSync"]
+- ["Ps9AnyObject", "connectionError"]
+- !private ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "doParsing"]
+- !private ["Ps9AnyObject", "errorCode"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isKind"]
+- ["Ps9AnyObject", "onReply"]
+- !private ["Ps9AnyObject", "profile_id"]
+- !private ["Ps9AnyObject", "resposeStatus"]
+- !private ["Ps9AnyObject", "sendRequest"]
+- !private ["Ps9AnyObject", "sqlite"]
+- !private ["Ps9AnyObject", "subscript"]
+- !private ["Ps9AnyObject", "uploadImageForPHP"]
+- ["Ps9AnyObject", ""]
+- !private ["C13ContactBackup13BGBaseHandler", "BGRequest_UploadRequest"]
+- ["C13ContactBackup13BGBaseHandler", "BaseModel"]
+- ["C13ContactBackup13BGBaseHandler", "BasebackGroundParser"]
+- ["C13ContactBackup13BGBaseHandler", "Data"]
+- !private ["C13ContactBackup13BGBaseHandler", "GetImagePath"]
+- ["C13ContactBackup13BGBaseHandler", "GetUploadContactList"]
+- !private ["C13ContactBackup13BGBaseHandler", "Parser_UploadBG"]
+- !private ["C13ContactBackup13BGBaseHandler", "Person_Model"]
+- !private ["C13ContactBackup13BGBaseHandler", "UIImage"]
+- ["C13ContactBackup13BGBaseHandler", "connectionError"]
+- ["C13ContactBackup13BGBaseHandler", "deinit"]
+- ["C13ContactBackup13BGBaseHandler", "init"]
+- ["C13ContactBackup13BGBaseHandler", "onReply"]
+- !private ["C13ContactBackup13BGBaseHandler", "sqlite"]
+- ["C13ContactBackup13BGBaseHandler", ""]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "BGRequest_UploadRequest"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "GetImagePath"]
+- ["P13ContactBackup17BGOnReplyDelegate", "GetUploadContactList"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "Parser_UploadBG"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "UIImage"]
+- ["P13ContactBackup17BGOnReplyDelegate", "connectionError"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "init"]
+- ["P13ContactBackup17BGOnReplyDelegate", "onReply"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "sqlite"]
+- ["P13ContactBackup17BGOnReplyDelegate", ""]
+- ["C13ContactBackup23BGRequest_UploadRequest", "deinit"]
+- !private ["C13ContactBackup23BGRequest_UploadRequest", "init"]
+- !private ["C13ContactBackup23BGRequest_UploadRequest", "sendRequest"]
+- !private ["C13ContactBackup23BGRequest_UploadRequest", "uploadImageForPHP"]
+- !private ["C13ContactBackup21BaseBackGroundRequest", "init"]
+- !private ["C13ContactBackup21BaseBackGroundRequest", "sendRequest"]
+- !private ["C13ContactBackup21BaseBackGroundRequest", "uploadImageForPHP"]
+- ["C13ContactBackup9BaseModel", "deinit"]
+- !private ["C13ContactBackup9BaseModel", "errorCode"]
+- !private ["C13ContactBackup9BaseModel", "image"]
+- !private ["C13ContactBackup9BaseModel", "profile_id"]
+- !private ["C13ContactBackup9BaseModel", "resposeStatus"]
+- ["C13ContactBackup20BasebackGroundParser", "deinit"]
+- !private ["C13ContactBackup20BasebackGroundParser", "doParsing"]
+- !private ["C13ContactBackup20BasebackGroundParser", "isKind"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- !private ["Ps7CVarArg", "BGRequest_UploadRequest"]
+- !private ["Ps7CVarArg", "GetContactTobeUpload"]
+- !private ["Ps7CVarArg", "GetImagePath"]
+- ["Ps7CVarArg", "GetUploadContactList"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "Parser_UploadBG"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "UIImage"]
+- !private ["Ps7CVarArg", "UpdateSync"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- ["Ps7CVarArg", "connectionError"]
+- !private ["Ps7CVarArg", "count"]
+- !private ["Ps7CVarArg", "doParsing"]
+- !private ["Ps7CVarArg", "errorCode"]
+- !private ["Ps7CVarArg", "image"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isKind"]
+- ["Ps7CVarArg", "onReply"]
+- !private ["Ps7CVarArg", "profile_id"]
+- !private ["Ps7CVarArg", "resposeStatus"]
+- !private ["Ps7CVarArg", "sendRequest"]
+- !private ["Ps7CVarArg", "sqlite"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "uploadImageForPHP"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Vs14CountableRange", "Iterator"]
+- !private ["Vs14CountableRange", "_Element"]
+- ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "BGRequest_UploadRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "GetContactTobeUpload"]
+- !private ["Ps28CustomDebugStringConvertible", "GetImagePath"]
+- ["Ps28CustomDebugStringConvertible", "GetUploadContactList"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Parser_UploadBG"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "UpdateSync"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- ["Ps28CustomDebugStringConvertible", "connectionError"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "doParsing"]
+- !private ["Ps28CustomDebugStringConvertible", "errorCode"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isKind"]
+- ["Ps28CustomDebugStringConvertible", "onReply"]
+- !private ["Ps28CustomDebugStringConvertible", "profile_id"]
+- !private ["Ps28CustomDebugStringConvertible", "resposeStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "sendRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "sqlite"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "uploadImageForPHP"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "BGRequest_UploadRequest"]
+- !private ["Ps23CustomStringConvertible", "GetContactTobeUpload"]
+- !private ["Ps23CustomStringConvertible", "GetImagePath"]
+- ["Ps23CustomStringConvertible", "GetUploadContactList"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Parser_UploadBG"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "UpdateSync"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "connectionError"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "doParsing"]
+- !private ["Ps23CustomStringConvertible", "errorCode"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isKind"]
+- ["Ps23CustomStringConvertible", "onReply"]
+- !private ["Ps23CustomStringConvertible", "profile_id"]
+- !private ["Ps23CustomStringConvertible", "resposeStatus"]
+- !private ["Ps23CustomStringConvertible", "sendRequest"]
+- !private ["Ps23CustomStringConvertible", "sqlite"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "uploadImageForPHP"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Data", "deinit"]
+- !private ["C13ContactBackup15DatabaseManager", "GetContactTobeUpload"]
+- !private ["C13ContactBackup15DatabaseManager", "UpdateSync"]
+- !private ["Ps9Equatable", "BGRequest_UploadRequest"]
+- !private ["Ps9Equatable", "GetContactTobeUpload"]
+- !private ["Ps9Equatable", "GetImagePath"]
+- ["Ps9Equatable", "GetUploadContactList"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "Parser_UploadBG"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "UpdateSync"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_Element"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "connectionError"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "doParsing"]
+- !private ["Ps9Equatable", "errorCode"]
+- !private ["Ps9Equatable", "image"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isKind"]
+- ["Ps9Equatable", "onReply"]
+- !private ["Ps9Equatable", "profile_id"]
+- !private ["Ps9Equatable", "resposeStatus"]
+- !private ["Ps9Equatable", "sendRequest"]
+- !private ["Ps9Equatable", "sqlite"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps9Equatable", "uploadImageForPHP"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "count"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "BGRequest_UploadRequest"]
+- !private ["Ps8Hashable", "GetContactTobeUpload"]
+- !private ["Ps8Hashable", "GetImagePath"]
+- ["Ps8Hashable", "GetUploadContactList"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Parser_UploadBG"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "UpdateSync"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "connectionError"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "doParsing"]
+- !private ["Ps8Hashable", "errorCode"]
+- !private ["Ps8Hashable", "image"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isKind"]
+- ["Ps8Hashable", "onReply"]
+- !private ["Ps8Hashable", "profile_id"]
+- !private ["Ps8Hashable", "resposeStatus"]
+- !private ["Ps8Hashable", "sendRequest"]
+- !private ["Ps8Hashable", "sqlite"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps8Hashable", "uploadImageForPHP"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- ["Si", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["CSo7NSArray", "count"]
+- !private ["CSo7NSArray", "subscript"]
+- !private ["PSo8NSCoding", "count"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "subscript"]
+- !private ["PSo9NSCopying", "count"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["CSo14NSMutableArray", "count"]
+- ["CSo14NSMutableArray", "deinit"]
+- !private ["CSo14NSMutableArray", "subscript"]
+- !private ["PSo16NSMutableCopying", "count"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- !private ["CSo8NSObject", "BGRequest_UploadRequest"]
+- ["CSo8NSObject", "BaseModel"]
+- ["CSo8NSObject", "BasebackGroundParser"]
+- ["CSo8NSObject", "Data"]
+- !private ["CSo8NSObject", "GetContactTobeUpload"]
+- !private ["CSo8NSObject", "GetImagePath"]
+- ["CSo8NSObject", "GetUploadContactList"]
+- !private ["CSo8NSObject", "Parser_UploadBG"]
+- !private ["CSo8NSObject", "Person_Model"]
+- !private ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UpdateSync"]
+- ["CSo8NSObject", "connectionError"]
+- !private ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "doParsing"]
+- !private ["CSo8NSObject", "errorCode"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isKind"]
+- ["CSo8NSObject", "onReply"]
+- !private ["CSo8NSObject", "profile_id"]
+- !private ["CSo8NSObject", "resposeStatus"]
+- !private ["CSo8NSObject", "sendRequest"]
+- !private ["CSo8NSObject", "sqlite"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["CSo8NSObject", "uploadImageForPHP"]
+- !private ["PSo16NSObjectProtocol", "BGRequest_UploadRequest"]
+- !private ["PSo16NSObjectProtocol", "GetContactTobeUpload"]
+- !private ["PSo16NSObjectProtocol", "GetImagePath"]
+- ["PSo16NSObjectProtocol", "GetUploadContactList"]
+- !private ["PSo16NSObjectProtocol", "Parser_UploadBG"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "UpdateSync"]
+- ["PSo16NSObjectProtocol", "connectionError"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "doParsing"]
+- !private ["PSo16NSObjectProtocol", "errorCode"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isKind"]
+- ["PSo16NSObjectProtocol", "onReply"]
+- !private ["PSo16NSObjectProtocol", "profile_id"]
+- !private ["PSo16NSObjectProtocol", "resposeStatus"]
+- !private ["PSo16NSObjectProtocol", "sendRequest"]
+- !private ["PSo16NSObjectProtocol", "sqlite"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo16NSObjectProtocol", "uploadImageForPHP"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "count"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["C13ContactBackup15Parser_UploadBG", "deinit"]
+- ["C13ContactBackup12Person_Model", "deinit"]
+- !private ["C13ContactBackup12Person_Model", "image"]
+- !private ["C13ContactBackup12Person_Model", "profile_id"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["CSo7UIImage", "deinit"]
+- !private ["CSo7UIImage", "init"]
+- !private ["C13ContactBackup15UploadContactBG", "BGRequest_UploadRequest"]
+- ["C13ContactBackup15UploadContactBG", "BaseModel"]
+- ["C13ContactBackup15UploadContactBG", "BasebackGroundParser"]
+- ["C13ContactBackup15UploadContactBG", "Data"]
+- !private ["C13ContactBackup15UploadContactBG", "GetImagePath"]
+- ["C13ContactBackup15UploadContactBG", "GetUploadContactList"]
+- !private ["C13ContactBackup15UploadContactBG", "Parser_UploadBG"]
+- !private ["C13ContactBackup15UploadContactBG", "Person_Model"]
+- !private ["C13ContactBackup15UploadContactBG", "UIImage"]
+- ["C13ContactBackup15UploadContactBG", "connectionError"]
+- ["C13ContactBackup15UploadContactBG", "deinit"]
+- ["C13ContactBackup15UploadContactBG", "init"]
+- ["C13ContactBackup15UploadContactBG", "onReply"]
+- !private ["C13ContactBackup15UploadContactBG", "sqlite"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "BGRequest_UploadRequest"]
+- !private ["Ps9_Hashable", "GetContactTobeUpload"]
+- !private ["Ps9_Hashable", "GetImagePath"]
+- ["Ps9_Hashable", "GetUploadContactList"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "Parser_UploadBG"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "UIImage"]
+- !private ["Ps9_Hashable", "UpdateSync"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "connectionError"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "doParsing"]
+- !private ["Ps9_Hashable", "errorCode"]
+- !private ["Ps9_Hashable", "image"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isKind"]
+- ["Ps9_Hashable", "onReply"]
+- !private ["Ps9_Hashable", "profile_id"]
+- !private ["Ps9_Hashable", "resposeStatus"]
+- !private ["Ps9_Hashable", "sendRequest"]
+- !private ["Ps9_Hashable", "sqlite"]
+- !private ["Ps9_Hashable", "subscript"]
+- !private ["Ps9_Hashable", "uploadImageForPHP"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ContactBackup13BGBaseHandler"
+- "P13ContactBackup17BGOnReplyDelegate"
+- "C13ContactBackup23BGRequest_UploadRequest"
+- !private "C13ContactBackup21BaseBackGroundRequest"
+- "C13ContactBackup9BaseModel"
+- "C13ContactBackup20BasebackGroundParser"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- !private "C13ContactBackup15DatabaseManager"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "CSo7NSArray"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- "CSo14NSMutableArray"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "C13ContactBackup15Parser_UploadBG"
+- "C13ContactBackup12Person_Model"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- "CSo7UIImage"
+- "C13ContactBackup15UploadContactBG"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+interface-hash: "a8a31d8e077736100d62b2985fdd3d71"

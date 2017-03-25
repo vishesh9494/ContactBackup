@@ -2,8 +2,6 @@
 //  ContactBackupUITests.swift
 //  ContactBackupUITests
 //
-//  Created by $un!l on 14/04/16.
-//  Copyright © 2016 $un!l. All rights reserved.
 //
 
 import XCTest

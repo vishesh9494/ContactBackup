@@ -1,0 +1,105 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Model_notiification"
+provides-nominal:
+- "C13ContactBackup19Model_notiification"
+provides-member:
+- ["C13ContactBackup19Model_notiification", ""]
+provides-dynamic-lookup:
+- "Message"
+- "profileId"
+- "userId"
+depends-top-level:
+- "Model_notiification"
+- "String"
+- "BaseModel"
+depends-member:
+- ["Ps9AnyObject", "Message"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "profileId"]
+- ["Ps9AnyObject", "userId"]
+- ["Ps9AnyObject", ""]
+- ["C13ContactBackup9BaseModel", "Message"]
+- ["C13ContactBackup9BaseModel", "String"]
+- ["C13ContactBackup9BaseModel", "deinit"]
+- ["C13ContactBackup9BaseModel", "init"]
+- ["C13ContactBackup9BaseModel", "profileId"]
+- ["C13ContactBackup9BaseModel", "userId"]
+- ["C13ContactBackup9BaseModel", ""]
+- ["Ps7CVarArg", "Message"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "profileId"]
+- ["Ps7CVarArg", "userId"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "Message"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "profileId"]
+- ["Ps28CustomDebugStringConvertible", "userId"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "Message"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "profileId"]
+- ["Ps23CustomStringConvertible", "userId"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "Message"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "profileId"]
+- ["Ps9Equatable", "userId"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "Message"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "profileId"]
+- ["Ps8Hashable", "userId"]
+- ["Ps8Hashable", ""]
+- ["C13ContactBackup19Model_notiification", "Message"]
+- ["C13ContactBackup19Model_notiification", "String"]
+- ["C13ContactBackup19Model_notiification", "deinit"]
+- ["C13ContactBackup19Model_notiification", "init"]
+- ["C13ContactBackup19Model_notiification", "profileId"]
+- ["C13ContactBackup19Model_notiification", "userId"]
+- ["CSo8NSObject", "Message"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "profileId"]
+- ["CSo8NSObject", "userId"]
+- ["PSo16NSObjectProtocol", "Message"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "profileId"]
+- ["PSo16NSObjectProtocol", "userId"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["Ps9_Hashable", "Message"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "profileId"]
+- ["Ps9_Hashable", "userId"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ContactBackup9BaseModel"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C13ContactBackup19Model_notiification"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Contacts.swiftmodule"
+interface-hash: "0ac370503a4263cacd51b38f845d571a"

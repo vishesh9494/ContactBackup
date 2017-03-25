@@ -1,0 +1,463 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Util_Contacts"
+provides-nominal:
+- "C13ContactBackup13Util_Contacts"
+provides-member:
+- ["C13ContactBackup13Util_Contacts", ""]
+provides-dynamic-lookup:
+- "objects"
+- "Delegate"
+- "getContacts"
+- "keysToFetch"
+- "store"
+- "retrieveContactsWithIdentifier"
+- "retrieveContactsWithStore"
+depends-top-level:
+- "Util_Contacts"
+- !private "CNKeyDescriptor"
+- "PhoneContact_Delegate"
+- "CNContactImageDataKey"
+- !private "Error"
+- !private "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "NSObject"
+- "String"
+- "CNContact"
+- !private "Bool"
+- "CNContactPhoneNumbersKey"
+- !private "print"
+- !private "NSPredicate"
+- !private "NSError"
+- "CNContactFamilyNameKey"
+- "CNContactGivenNameKey"
+- !private "Void"
+- "CNContactEmailAddressesKey"
+- "CNContactPostalAddressesKey"
+- "Array"
+- "CNContactNoteKey"
+- "BooleanLiteralType"
+- "CNContactStore"
+depends-member:
+- ["Ps9AnyObject", "CNContact"]
+- ["Ps9AnyObject", "CNContactEmailAddressesKey"]
+- ["Ps9AnyObject", "CNContactFamilyNameKey"]
+- ["Ps9AnyObject", "CNContactGivenNameKey"]
+- ["Ps9AnyObject", "CNContactImageDataKey"]
+- ["Ps9AnyObject", "CNContactNoteKey"]
+- ["Ps9AnyObject", "CNContactPhoneNumbersKey"]
+- ["Ps9AnyObject", "CNContactPostalAddressesKey"]
+- ["Ps9AnyObject", "CNContactStore"]
+- ["Ps9AnyObject", "Delegate"]
+- !private ["Ps9AnyObject", "authorizationStatus"]
+- !private ["Ps9AnyObject", "defaultContainerIdentifier"]
+- ["Ps9AnyObject", "getContacts"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "keysToFetch"]
+- ["Ps9AnyObject", "objects"]
+- !private ["Ps9AnyObject", "predicateForContacts"]
+- !private ["Ps9AnyObject", "predicateForContactsInContainer"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "requestAccess"]
+- ["Ps9AnyObject", "retrieveContactsWithIdentifier"]
+- ["Ps9AnyObject", "retrieveContactsWithStore"]
+- ["Ps9AnyObject", "store"]
+- !private ["Ps9AnyObject", "unifiedContacts"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "Element"]
+- ["Sa", "deinit"]
+- ["Sa", "init"]
+- ["Ps23BidirectionalCollection", "Element"]
+- ["Ps23BidirectionalCollection", "init"]
+- ["Ps22BidirectionalIndexable", "Element"]
+- ["Ps22BidirectionalIndexable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["OSC21CNAuthorizationStatus", "RawValue"]
+- !private ["OSC21CNAuthorizationStatus", "authorized"]
+- ["OSC21CNAuthorizationStatus", "deinit"]
+- !private ["OSC21CNAuthorizationStatus", "notDetermined"]
+- !private ["CSo9CNContact", "predicateForContacts"]
+- !private ["CSo9CNContact", "predicateForContactsInContainer"]
+- !private ["CSo14CNContactStore", "authorizationStatus"]
+- !private ["CSo14CNContactStore", "defaultContainerIdentifier"]
+- ["CSo14CNContactStore", "deinit"]
+- ["CSo14CNContactStore", "init"]
+- !private ["CSo14CNContactStore", "requestAccess"]
+- !private ["CSo14CNContactStore", "unifiedContacts"]
+- !private ["OSC12CNEntityType", "contacts"]
+- ["OSC12CNEntityType", "deinit"]
+- ["Ps7CVarArg", "CNContact"]
+- ["Ps7CVarArg", "CNContactEmailAddressesKey"]
+- ["Ps7CVarArg", "CNContactFamilyNameKey"]
+- ["Ps7CVarArg", "CNContactGivenNameKey"]
+- ["Ps7CVarArg", "CNContactImageDataKey"]
+- ["Ps7CVarArg", "CNContactNoteKey"]
+- ["Ps7CVarArg", "CNContactPhoneNumbersKey"]
+- ["Ps7CVarArg", "CNContactPostalAddressesKey"]
+- ["Ps7CVarArg", "CNContactStore"]
+- ["Ps7CVarArg", "Delegate"]
+- ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "authorizationStatus"]
+- !private ["Ps7CVarArg", "defaultContainerIdentifier"]
+- ["Ps7CVarArg", "getContacts"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "keysToFetch"]
+- ["Ps7CVarArg", "objects"]
+- !private ["Ps7CVarArg", "predicateForContacts"]
+- !private ["Ps7CVarArg", "predicateForContactsInContainer"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "requestAccess"]
+- ["Ps7CVarArg", "retrieveContactsWithIdentifier"]
+- ["Ps7CVarArg", "retrieveContactsWithStore"]
+- ["Ps7CVarArg", "store"]
+- !private ["Ps7CVarArg", "unifiedContacts"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Collection", "Element"]
+- ["Ps10Collection", "init"]
+- ["Ps28CustomDebugStringConvertible", "CNContact"]
+- ["Ps28CustomDebugStringConvertible", "CNContactEmailAddressesKey"]
+- ["Ps28CustomDebugStringConvertible", "CNContactFamilyNameKey"]
+- ["Ps28CustomDebugStringConvertible", "CNContactGivenNameKey"]
+- ["Ps28CustomDebugStringConvertible", "CNContactImageDataKey"]
+- ["Ps28CustomDebugStringConvertible", "CNContactNoteKey"]
+- ["Ps28CustomDebugStringConvertible", "CNContactPhoneNumbersKey"]
+- ["Ps28CustomDebugStringConvertible", "CNContactPostalAddressesKey"]
+- ["Ps28CustomDebugStringConvertible", "CNContactStore"]
+- ["Ps28CustomDebugStringConvertible", "Delegate"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "authorizationStatus"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultContainerIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "getContacts"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "keysToFetch"]
+- ["Ps28CustomDebugStringConvertible", "objects"]
+- !private ["Ps28CustomDebugStringConvertible", "predicateForContacts"]
+- !private ["Ps28CustomDebugStringConvertible", "predicateForContactsInContainer"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAccess"]
+- ["Ps28CustomDebugStringConvertible", "retrieveContactsWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "retrieveContactsWithStore"]
+- ["Ps28CustomDebugStringConvertible", "store"]
+- !private ["Ps28CustomDebugStringConvertible", "unifiedContacts"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "CNContact"]
+- ["Ps23CustomStringConvertible", "CNContactEmailAddressesKey"]
+- ["Ps23CustomStringConvertible", "CNContactFamilyNameKey"]
+- ["Ps23CustomStringConvertible", "CNContactGivenNameKey"]
+- ["Ps23CustomStringConvertible", "CNContactImageDataKey"]
+- ["Ps23CustomStringConvertible", "CNContactNoteKey"]
+- ["Ps23CustomStringConvertible", "CNContactPhoneNumbersKey"]
+- ["Ps23CustomStringConvertible", "CNContactPostalAddressesKey"]
+- ["Ps23CustomStringConvertible", "CNContactStore"]
+- ["Ps23CustomStringConvertible", "Delegate"]
+- ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "authorizationStatus"]
+- !private ["Ps23CustomStringConvertible", "defaultContainerIdentifier"]
+- ["Ps23CustomStringConvertible", "getContacts"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "keysToFetch"]
+- ["Ps23CustomStringConvertible", "objects"]
+- !private ["Ps23CustomStringConvertible", "predicateForContacts"]
+- !private ["Ps23CustomStringConvertible", "predicateForContactsInContainer"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "requestAccess"]
+- ["Ps23CustomStringConvertible", "retrieveContactsWithIdentifier"]
+- ["Ps23CustomStringConvertible", "retrieveContactsWithStore"]
+- ["Ps23CustomStringConvertible", "store"]
+- !private ["Ps23CustomStringConvertible", "unifiedContacts"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "CNContact"]
+- ["Ps9Equatable", "CNContactEmailAddressesKey"]
+- ["Ps9Equatable", "CNContactFamilyNameKey"]
+- ["Ps9Equatable", "CNContactGivenNameKey"]
+- ["Ps9Equatable", "CNContactImageDataKey"]
+- ["Ps9Equatable", "CNContactNoteKey"]
+- ["Ps9Equatable", "CNContactPhoneNumbersKey"]
+- ["Ps9Equatable", "CNContactPostalAddressesKey"]
+- ["Ps9Equatable", "CNContactStore"]
+- ["Ps9Equatable", "Delegate"]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "authorizationStatus"]
+- !private ["Ps9Equatable", "authorized"]
+- !private ["Ps9Equatable", "contacts"]
+- !private ["Ps9Equatable", "defaultContainerIdentifier"]
+- ["Ps9Equatable", "getContacts"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "keysToFetch"]
+- !private ["Ps9Equatable", "notDetermined"]
+- ["Ps9Equatable", "objects"]
+- !private ["Ps9Equatable", "predicateForContacts"]
+- !private ["Ps9Equatable", "predicateForContactsInContainer"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "requestAccess"]
+- ["Ps9Equatable", "retrieveContactsWithIdentifier"]
+- ["Ps9Equatable", "retrieveContactsWithStore"]
+- ["Ps9Equatable", "store"]
+- !private ["Ps9Equatable", "unifiedContacts"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "deinit"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "CNContact"]
+- ["Ps8Hashable", "CNContactEmailAddressesKey"]
+- ["Ps8Hashable", "CNContactFamilyNameKey"]
+- ["Ps8Hashable", "CNContactGivenNameKey"]
+- ["Ps8Hashable", "CNContactImageDataKey"]
+- ["Ps8Hashable", "CNContactNoteKey"]
+- ["Ps8Hashable", "CNContactPhoneNumbersKey"]
+- ["Ps8Hashable", "CNContactPostalAddressesKey"]
+- ["Ps8Hashable", "CNContactStore"]
+- ["Ps8Hashable", "Delegate"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "authorizationStatus"]
+- !private ["Ps8Hashable", "authorized"]
+- !private ["Ps8Hashable", "contacts"]
+- !private ["Ps8Hashable", "defaultContainerIdentifier"]
+- ["Ps8Hashable", "getContacts"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "keysToFetch"]
+- !private ["Ps8Hashable", "notDetermined"]
+- ["Ps8Hashable", "objects"]
+- !private ["Ps8Hashable", "predicateForContacts"]
+- !private ["Ps8Hashable", "predicateForContactsInContainer"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "requestAccess"]
+- ["Ps8Hashable", "retrieveContactsWithIdentifier"]
+- ["Ps8Hashable", "retrieveContactsWithStore"]
+- ["Ps8Hashable", "store"]
+- !private ["Ps8Hashable", "unifiedContacts"]
+- ["Ps8Hashable", ""]
+- ["Ps9Indexable", "Element"]
+- ["Ps9Indexable", "init"]
+- ["Ps13IndexableBase", "Element"]
+- ["Ps13IndexableBase", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps17MutableCollection", "Element"]
+- ["Ps17MutableCollection", "init"]
+- ["Ps16MutableIndexable", "Element"]
+- ["Ps16MutableIndexable", "init"]
+- !private ["PSo8NSCoding", "predicateForContacts"]
+- !private ["PSo8NSCoding", "predicateForContactsInContainer"]
+- !private ["PSo9NSCopying", "predicateForContacts"]
+- !private ["PSo9NSCopying", "predicateForContactsInContainer"]
+- !private ["PSo16NSMutableCopying", "predicateForContacts"]
+- !private ["PSo16NSMutableCopying", "predicateForContactsInContainer"]
+- !private ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CNContact"]
+- ["CSo8NSObject", "CNContactEmailAddressesKey"]
+- ["CSo8NSObject", "CNContactFamilyNameKey"]
+- ["CSo8NSObject", "CNContactGivenNameKey"]
+- ["CSo8NSObject", "CNContactImageDataKey"]
+- ["CSo8NSObject", "CNContactNoteKey"]
+- ["CSo8NSObject", "CNContactPhoneNumbersKey"]
+- ["CSo8NSObject", "CNContactPostalAddressesKey"]
+- ["CSo8NSObject", "CNContactStore"]
+- !private ["CSo8NSObject", "CNKeyDescriptor"]
+- ["CSo8NSObject", "Delegate"]
+- !private ["CSo8NSObject", "Error"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSPredicate"]
+- ["CSo8NSObject", "PhoneContact_Delegate"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "authorizationStatus"]
+- !private ["CSo8NSObject", "defaultContainerIdentifier"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "getContacts"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "keysToFetch"]
+- ["CSo8NSObject", "objects"]
+- !private ["CSo8NSObject", "predicateForContacts"]
+- !private ["CSo8NSObject", "predicateForContactsInContainer"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "requestAccess"]
+- ["CSo8NSObject", "retrieveContactsWithIdentifier"]
+- ["CSo8NSObject", "retrieveContactsWithStore"]
+- ["CSo8NSObject", "store"]
+- !private ["CSo8NSObject", "unifiedContacts"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "CNContact"]
+- ["PSo16NSObjectProtocol", "CNContactEmailAddressesKey"]
+- ["PSo16NSObjectProtocol", "CNContactFamilyNameKey"]
+- ["PSo16NSObjectProtocol", "CNContactGivenNameKey"]
+- ["PSo16NSObjectProtocol", "CNContactImageDataKey"]
+- ["PSo16NSObjectProtocol", "CNContactNoteKey"]
+- ["PSo16NSObjectProtocol", "CNContactPhoneNumbersKey"]
+- ["PSo16NSObjectProtocol", "CNContactPostalAddressesKey"]
+- ["PSo16NSObjectProtocol", "CNContactStore"]
+- ["PSo16NSObjectProtocol", "Delegate"]
+- !private ["PSo16NSObjectProtocol", "authorizationStatus"]
+- !private ["PSo16NSObjectProtocol", "defaultContainerIdentifier"]
+- ["PSo16NSObjectProtocol", "getContacts"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "keysToFetch"]
+- ["PSo16NSObjectProtocol", "objects"]
+- !private ["PSo16NSObjectProtocol", "predicateForContacts"]
+- !private ["PSo16NSObjectProtocol", "predicateForContactsInContainer"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "requestAccess"]
+- ["PSo16NSObjectProtocol", "retrieveContactsWithIdentifier"]
+- ["PSo16NSObjectProtocol", "retrieveContactsWithStore"]
+- ["PSo16NSObjectProtocol", "store"]
+- !private ["PSo16NSObjectProtocol", "unifiedContacts"]
+- ["PSo16NSObjectProtocol", ""]
+- ["CSo11NSPredicate", "deinit"]
+- !private ["PSo14NSSecureCoding", "predicateForContacts"]
+- !private ["PSo14NSSecureCoding", "predicateForContactsInContainer"]
+- ["Sq", "deinit"]
+- !private ["P13ContactBackup21PhoneContact_Delegate", "PermissionDetail"]
+- ["Ps22RandomAccessCollection", "Element"]
+- ["Ps22RandomAccessCollection", "init"]
+- ["Ps21RandomAccessIndexable", "Element"]
+- ["Ps21RandomAccessIndexable", "init"]
+- ["Ps26RangeReplaceableCollection", "Element"]
+- ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps25RangeReplaceableIndexable", "Element"]
+- ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "authorized"]
+- !private ["Ps16RawRepresentable", "contacts"]
+- !private ["Ps16RawRepresentable", "notDetermined"]
+- ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "init"]
+- ["SS", "deinit"]
+- !private ["C13ContactBackup13Util_Contacts", "Bool"]
+- ["C13ContactBackup13Util_Contacts", "CNContact"]
+- ["C13ContactBackup13Util_Contacts", "CNContactEmailAddressesKey"]
+- ["C13ContactBackup13Util_Contacts", "CNContactFamilyNameKey"]
+- ["C13ContactBackup13Util_Contacts", "CNContactGivenNameKey"]
+- ["C13ContactBackup13Util_Contacts", "CNContactImageDataKey"]
+- ["C13ContactBackup13Util_Contacts", "CNContactNoteKey"]
+- ["C13ContactBackup13Util_Contacts", "CNContactPhoneNumbersKey"]
+- ["C13ContactBackup13Util_Contacts", "CNContactPostalAddressesKey"]
+- ["C13ContactBackup13Util_Contacts", "CNContactStore"]
+- !private ["C13ContactBackup13Util_Contacts", "CNKeyDescriptor"]
+- ["C13ContactBackup13Util_Contacts", "Delegate"]
+- !private ["C13ContactBackup13Util_Contacts", "Error"]
+- !private ["C13ContactBackup13Util_Contacts", "NSError"]
+- !private ["C13ContactBackup13Util_Contacts", "NSPredicate"]
+- ["C13ContactBackup13Util_Contacts", "PhoneContact_Delegate"]
+- ["C13ContactBackup13Util_Contacts", "String"]
+- !private ["C13ContactBackup13Util_Contacts", "Void"]
+- ["C13ContactBackup13Util_Contacts", "deinit"]
+- ["C13ContactBackup13Util_Contacts", "getContacts"]
+- ["C13ContactBackup13Util_Contacts", "init"]
+- ["C13ContactBackup13Util_Contacts", "keysToFetch"]
+- ["C13ContactBackup13Util_Contacts", "objects"]
+- !private ["C13ContactBackup13Util_Contacts", "print"]
+- ["C13ContactBackup13Util_Contacts", "retrieveContactsWithIdentifier"]
+- ["C13ContactBackup13Util_Contacts", "retrieveContactsWithStore"]
+- ["C13ContactBackup13Util_Contacts", "store"]
+- ["Ps14_ArrayProtocol", "Element"]
+- ["Ps14_ArrayProtocol", "init"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "CNContact"]
+- ["Ps9_Hashable", "CNContactEmailAddressesKey"]
+- ["Ps9_Hashable", "CNContactFamilyNameKey"]
+- ["Ps9_Hashable", "CNContactGivenNameKey"]
+- ["Ps9_Hashable", "CNContactImageDataKey"]
+- ["Ps9_Hashable", "CNContactNoteKey"]
+- ["Ps9_Hashable", "CNContactPhoneNumbersKey"]
+- ["Ps9_Hashable", "CNContactPostalAddressesKey"]
+- ["Ps9_Hashable", "CNContactStore"]
+- ["Ps9_Hashable", "Delegate"]
+- !private ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "authorizationStatus"]
+- !private ["Ps9_Hashable", "authorized"]
+- !private ["Ps9_Hashable", "contacts"]
+- !private ["Ps9_Hashable", "defaultContainerIdentifier"]
+- ["Ps9_Hashable", "getContacts"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "keysToFetch"]
+- !private ["Ps9_Hashable", "notDetermined"]
+- ["Ps9_Hashable", "objects"]
+- !private ["Ps9_Hashable", "predicateForContacts"]
+- !private ["Ps9_Hashable", "predicateForContactsInContainer"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "requestAccess"]
+- ["Ps9_Hashable", "retrieveContactsWithIdentifier"]
+- ["Ps9_Hashable", "retrieveContactsWithStore"]
+- ["Ps9_Hashable", "store"]
+- !private ["Ps9_Hashable", "unifiedContacts"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- "Sb"
+- "OSC21CNAuthorizationStatus"
+- !private "CSo9CNContact"
+- "CSo14CNContactStore"
+- "OSC12CNEntityType"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Ps25LosslessStringConvertible"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo11NSPredicate"
+- !private "PSo14NSSecureCoding"
+- "Sq"
+- !private "P13ContactBackup21PhoneContact_Delegate"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "Ps8Sequence"
+- "SS"
+- "C13ContactBackup13Util_Contacts"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/vishesh/Documents/Coding/iOS App-D/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Users/vishesh/Documents/Coding/iOS App-D/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Contacts.swiftmodule"
+interface-hash: "9cc0b35493023632393cbf7e9532f049"

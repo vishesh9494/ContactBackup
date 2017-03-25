@@ -2,8 +2,6 @@
 //  ContactBackupTests.swift
 //  ContactBackupTests
 //
-//  Created by $un!l on 14/04/16.
-//  Copyright © 2016 $un!l. All rights reserved.
 //
 
 import XCTest
@@ -28,7 +26,7 @@ class ContactBackupTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

@@ -1,0 +1,115 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseModel"
+provides-nominal:
+- "C13ContactBackup9BaseModel"
+provides-member:
+- ["C13ContactBackup9BaseModel", ""]
+provides-dynamic-lookup:
+- "parameter"
+- "msg"
+- "errorCode"
+depends-top-level:
+- "Int"
+- "String"
+- "NSObject"
+- "BaseModel"
+- "NSMutableArray"
+depends-member:
+- ["Ps9AnyObject", "errorCode"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "msg"]
+- ["Ps9AnyObject", "parameter"]
+- ["Ps9AnyObject", "resposeStatus"]
+- ["Ps9AnyObject", ""]
+- ["C13ContactBackup9BaseModel", "Int"]
+- ["C13ContactBackup9BaseModel", "NSMutableArray"]
+- ["C13ContactBackup9BaseModel", "String"]
+- ["C13ContactBackup9BaseModel", "deinit"]
+- ["C13ContactBackup9BaseModel", "errorCode"]
+- ["C13ContactBackup9BaseModel", "init"]
+- ["C13ContactBackup9BaseModel", "msg"]
+- ["C13ContactBackup9BaseModel", "parameter"]
+- ["C13ContactBackup9BaseModel", "resposeStatus"]
+- ["Ps7CVarArg", "errorCode"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "msg"]
+- ["Ps7CVarArg", "parameter"]
+- ["Ps7CVarArg", "resposeStatus"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "errorCode"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "msg"]
+- ["Ps28CustomDebugStringConvertible", "parameter"]
+- ["Ps28CustomDebugStringConvertible", "resposeStatus"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "errorCode"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "msg"]
+- ["Ps23CustomStringConvertible", "parameter"]
+- ["Ps23CustomStringConvertible", "resposeStatus"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "errorCode"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "msg"]
+- ["Ps9Equatable", "parameter"]
+- ["Ps9Equatable", "resposeStatus"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "errorCode"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "msg"]
+- ["Ps8Hashable", "parameter"]
+- ["Ps8Hashable", "resposeStatus"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSMutableArray"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "errorCode"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "msg"]
+- ["CSo8NSObject", "parameter"]
+- ["CSo8NSObject", "resposeStatus"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "errorCode"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "msg"]
+- ["PSo16NSObjectProtocol", "parameter"]
+- ["PSo16NSObjectProtocol", "resposeStatus"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["Ps9_Hashable", "errorCode"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "msg"]
+- ["Ps9_Hashable", "parameter"]
+- ["Ps9_Hashable", "resposeStatus"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ContactBackup9BaseModel"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/vishesh/Documents/Coding/iOS App-D/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Users/vishesh/Documents/Coding/iOS App-D/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Contacts.swiftmodule"
+interface-hash: "2fde3301a1ad5f6ed92ba7c34f33dc04"

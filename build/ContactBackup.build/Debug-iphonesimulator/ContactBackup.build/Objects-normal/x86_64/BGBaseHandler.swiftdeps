@@ -1,0 +1,345 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BGBaseHandler"
+provides-nominal:
+- "C13ContactBackup13BGBaseHandler"
+provides-member:
+- ["C13ContactBackup13BGBaseHandler", ""]
+provides-dynamic-lookup:
+- "connectionError"
+- "GetUploadContactList"
+- "sqlite"
+- "DownloadContacts"
+- "onReply"
+- "getNilData"
+- "GetImagePath"
+- "notification"
+depends-top-level:
+- "BaseModel"
+- "BGBaseHandler"
+- "BasebackGroundParser"
+- "String"
+- "DatabaseManager"
+- "NotificationCenter"
+- !private "BooleanLiteralType"
+- !private "FileManager"
+- "NSObject"
+- !private "StringLiteralType"
+- "Data"
+- "BGOnReplyDelegate"
+depends-member:
+- ["Ps9AnyObject", "DatabaseManager"]
+- ["Ps9AnyObject", "DownloadContacts"]
+- !private ["Ps9AnyObject", "FileManager"]
+- ["Ps9AnyObject", "GetImagePath"]
+- ["Ps9AnyObject", "GetUploadContactList"]
+- ["Ps9AnyObject", "connectionError"]
+- !private ["Ps9AnyObject", "default"]
+- ["Ps9AnyObject", "getNilData"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "notification"]
+- ["Ps9AnyObject", "onReply"]
+- ["Ps9AnyObject", "sqlite"]
+- !private ["Ps9AnyObject", "url"]
+- ["Ps9AnyObject", ""]
+- ["C13ContactBackup13BGBaseHandler", "BaseModel"]
+- ["C13ContactBackup13BGBaseHandler", "BasebackGroundParser"]
+- ["C13ContactBackup13BGBaseHandler", "Data"]
+- ["C13ContactBackup13BGBaseHandler", "DatabaseManager"]
+- ["C13ContactBackup13BGBaseHandler", "DownloadContacts"]
+- !private ["C13ContactBackup13BGBaseHandler", "FileManager"]
+- ["C13ContactBackup13BGBaseHandler", "GetImagePath"]
+- ["C13ContactBackup13BGBaseHandler", "GetUploadContactList"]
+- ["C13ContactBackup13BGBaseHandler", "NotificationCenter"]
+- ["C13ContactBackup13BGBaseHandler", "String"]
+- ["C13ContactBackup13BGBaseHandler", "connectionError"]
+- ["C13ContactBackup13BGBaseHandler", "deinit"]
+- ["C13ContactBackup13BGBaseHandler", "getNilData"]
+- ["C13ContactBackup13BGBaseHandler", "init"]
+- ["C13ContactBackup13BGBaseHandler", "notification"]
+- ["C13ContactBackup13BGBaseHandler", "onReply"]
+- ["C13ContactBackup13BGBaseHandler", "sqlite"]
+- ["P13ContactBackup17BGOnReplyDelegate", "DatabaseManager"]
+- !private ["P13ContactBackup17BGOnReplyDelegate", "FileManager"]
+- ["P13ContactBackup17BGOnReplyDelegate", "connectionError"]
+- ["P13ContactBackup17BGOnReplyDelegate", "getNilData"]
+- ["P13ContactBackup17BGOnReplyDelegate", "onReply"]
+- ["P13ContactBackup17BGOnReplyDelegate", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CNKeyDescriptor", "init"]
+- ["Ps7CVarArg", "DatabaseManager"]
+- ["Ps7CVarArg", "DownloadContacts"]
+- !private ["Ps7CVarArg", "FileManager"]
+- ["Ps7CVarArg", "GetImagePath"]
+- ["Ps7CVarArg", "GetUploadContactList"]
+- ["Ps7CVarArg", "connectionError"]
+- !private ["Ps7CVarArg", "default"]
+- ["Ps7CVarArg", "getNilData"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "notification"]
+- ["Ps7CVarArg", "onReply"]
+- ["Ps7CVarArg", "sqlite"]
+- !private ["Ps7CVarArg", "url"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "DatabaseManager"]
+- ["Ps28CustomDebugStringConvertible", "DownloadContacts"]
+- !private ["Ps28CustomDebugStringConvertible", "FileManager"]
+- ["Ps28CustomDebugStringConvertible", "GetImagePath"]
+- ["Ps28CustomDebugStringConvertible", "GetUploadContactList"]
+- !private ["Ps28CustomDebugStringConvertible", "appendingPathComponent"]
+- ["Ps28CustomDebugStringConvertible", "connectionError"]
+- !private ["Ps28CustomDebugStringConvertible", "default"]
+- ["Ps28CustomDebugStringConvertible", "getNilData"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "notification"]
+- ["Ps28CustomDebugStringConvertible", "onReply"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- ["Ps28CustomDebugStringConvertible", "sqlite"]
+- !private ["Ps28CustomDebugStringConvertible", "url"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "appendingPathComponent"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "path"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "DatabaseManager"]
+- ["Ps23CustomStringConvertible", "DownloadContacts"]
+- !private ["Ps23CustomStringConvertible", "FileManager"]
+- ["Ps23CustomStringConvertible", "GetImagePath"]
+- ["Ps23CustomStringConvertible", "GetUploadContactList"]
+- !private ["Ps23CustomStringConvertible", "appendingPathComponent"]
+- ["Ps23CustomStringConvertible", "connectionError"]
+- !private ["Ps23CustomStringConvertible", "default"]
+- ["Ps23CustomStringConvertible", "getNilData"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "notification"]
+- ["Ps23CustomStringConvertible", "onReply"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- ["Ps23CustomStringConvertible", "sqlite"]
+- !private ["Ps23CustomStringConvertible", "url"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C13ContactBackup15DatabaseManager", "deinit"]
+- ["C13ContactBackup15DatabaseManager", "init"]
+- !private ["Sd", "deinit"]
+- ["Ps9Equatable", "DatabaseManager"]
+- ["Ps9Equatable", "DownloadContacts"]
+- !private ["Ps9Equatable", "FileManager"]
+- ["Ps9Equatable", "GetImagePath"]
+- ["Ps9Equatable", "GetUploadContactList"]
+- !private ["Ps9Equatable", "appendingPathComponent"]
+- ["Ps9Equatable", "connectionError"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "documentDirectory"]
+- ["Ps9Equatable", "getNilData"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "notification"]
+- ["Ps9Equatable", "onReply"]
+- !private ["Ps9Equatable", "path"]
+- ["Ps9Equatable", "sqlite"]
+- !private ["Ps9Equatable", "url"]
+- !private ["Ps9Equatable", "userDomainMask"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "userDomainMask"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["CSo11FileManager", "default"]
+- ["CSo11FileManager", "deinit"]
+- !private ["CSo11FileManager", "url"]
+- !private ["Sf", "deinit"]
+- ["Ps8Hashable", "DatabaseManager"]
+- ["Ps8Hashable", "DownloadContacts"]
+- !private ["Ps8Hashable", "FileManager"]
+- ["Ps8Hashable", "GetImagePath"]
+- ["Ps8Hashable", "GetUploadContactList"]
+- !private ["Ps8Hashable", "appendingPathComponent"]
+- ["Ps8Hashable", "connectionError"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "documentDirectory"]
+- ["Ps8Hashable", "getNilData"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "notification"]
+- ["Ps8Hashable", "onReply"]
+- !private ["Ps8Hashable", "path"]
+- ["Ps8Hashable", "sqlite"]
+- !private ["Ps8Hashable", "url"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "BaseModel"]
+- ["CSo8NSObject", "BasebackGroundParser"]
+- ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "DatabaseManager"]
+- ["CSo8NSObject", "DownloadContacts"]
+- !private ["CSo8NSObject", "FileManager"]
+- ["CSo8NSObject", "GetImagePath"]
+- ["CSo8NSObject", "GetUploadContactList"]
+- ["CSo8NSObject", "NotificationCenter"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "connectionError"]
+- !private ["CSo8NSObject", "default"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "getNilData"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "notification"]
+- ["CSo8NSObject", "onReply"]
+- ["CSo8NSObject", "sqlite"]
+- !private ["CSo8NSObject", "url"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "DatabaseManager"]
+- ["PSo16NSObjectProtocol", "DownloadContacts"]
+- !private ["PSo16NSObjectProtocol", "FileManager"]
+- ["PSo16NSObjectProtocol", "GetImagePath"]
+- ["PSo16NSObjectProtocol", "GetUploadContactList"]
+- ["PSo16NSObjectProtocol", "connectionError"]
+- !private ["PSo16NSObjectProtocol", "default"]
+- ["PSo16NSObjectProtocol", "getNilData"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "notification"]
+- ["PSo16NSObjectProtocol", "onReply"]
+- ["PSo16NSObjectProtocol", "sqlite"]
+- !private ["PSo16NSObjectProtocol", "url"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps9OptionSet", "userDomainMask"]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "documentDirectory"]
+- !private ["Ps16RawRepresentable", "userDomainMask"]
+- !private ["P10Foundation20ReferenceConvertible", "appendingPathComponent"]
+- !private ["P10Foundation20ReferenceConvertible", "path"]
+- ["OCSo11FileManager19SearchPathDirectory", "deinit"]
+- !private ["OCSo11FileManager19SearchPathDirectory", "documentDirectory"]
+- ["VCSo11FileManager20SearchPathDomainMask", "deinit"]
+- !private ["VCSo11FileManager20SearchPathDomainMask", "userDomainMask"]
+- !private ["Ps10SetAlgebra", "userDomainMask"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["V10Foundation3URL", "appendingPathComponent"]
+- ["V10Foundation3URL", "deinit"]
+- !private ["V10Foundation3URL", "path"]
+- !private ["Sc", "deinit"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "appendingPathComponent"]
+- !private ["Ps34_ExpressibleByFileReferenceLiteral", "path"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "DatabaseManager"]
+- ["Ps9_Hashable", "DownloadContacts"]
+- !private ["Ps9_Hashable", "FileManager"]
+- ["Ps9_Hashable", "GetImagePath"]
+- ["Ps9_Hashable", "GetUploadContactList"]
+- !private ["Ps9_Hashable", "appendingPathComponent"]
+- ["Ps9_Hashable", "connectionError"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "documentDirectory"]
+- ["Ps9_Hashable", "getNilData"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "notification"]
+- ["Ps9_Hashable", "onReply"]
+- !private ["Ps9_Hashable", "path"]
+- ["Ps9_Hashable", "sqlite"]
+- !private ["Ps9_Hashable", "url"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "appendingPathComponent"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "path"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C13ContactBackup13BGBaseHandler"
+- "P13ContactBackup17BGOnReplyDelegate"
+- "Sb"
+- !private "PSo15CNKeyDescriptor"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C13ContactBackup15DatabaseManager"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "CSo11FileManager"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "P10Foundation20ReferenceConvertible"
+- "OCSo11FileManager19SearchPathDirectory"
+- "VCSo11FileManager20SearchPathDomainMask"
+- !private "Ps10SetAlgebra"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- "V10Foundation3URL"
+- !private "Sc"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps34_ExpressibleByFileReferenceLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/ContactBackup-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/sqlite3.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Users/vishesh/Downloads/ContactBackup/ContactBackup/Reachability.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Contacts.swiftmodule"
+interface-hash: "de9e82962d60d541736d8051770b0a22"
